@@ -93,7 +93,7 @@ Run-dir suffixes prevent the two arms from colliding.
 
 ## Code license
 
-[MIT License](LICENSE).
+[Apache License 2.0](LICENSE).
 
 ## Contact
 
