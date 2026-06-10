@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.eggs/
+build/
+dist/
+
+# Run artifacts
+runs/
+*.log
+*.pt
+*.bin
+adapter_*/
+checkpoints/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Local secrets (defense in depth — should never be committed)
+.env
+.aws/
+.midway/

@@ -1,0 +1,1839 @@
+{
+  "personae": [
+    {
+      "backstory": "I'm Lena Verbruggen, twenty-two years old, and I've lived in Antwerp my whole life \u2014 specifically in the Borgerhout district, in a narrow three-story row house my parents bought in 2009 that always smelled faintly of rust and bread. My father, Pieter, worked as a structural welder at the Port of Antwerp for over two decades, so the smell of hot metal was basically my childhood. By the time I was sixteen I was spending weekends in his workshop watching him shape steel, and at eighteen I enrolled in a two-year vocational program at the Provinciale Technische School in Mechelen, about thirty kilometres south of home. I graduated in June 2022 and landed my current job within three months \u2014 I work as an industrial blacksmith at Debacker & Zonen, a mid-sized forging company on the Industrieweg in the Haven Noord area of Antwerp. I mostly fabricate custom brackets, hinges, and structural reinforcement components for the maritime and construction sectors. The forge temperature I work with most days sits around 1,200 degrees Celsius, and I still feel a small thrill every time I pull a piece of glowing steel out of the furnace.\n\nMy health has shaped my daily life in ways people don't always expect. I was diagnosed with celiac disease at age fourteen after a miserable year of stomach cramps and fatigue that my GP kept dismissing as stress. Once I finally saw a gastroenterologist at the UZA hospital and got the diagnosis, I had to overhaul everything I ate. I can't tolerate even trace amounts of gluten, so I cook almost all my own meals \u2014 a rice or buckwheat base most nights, and I've become surprisingly good at making gluten-free stroopwafels from scratch. Eating out in Antwerp takes research, but there are a handful of places I trust, including a small caf\u00e9 on the Kloosterstraat called De Groene Peer that labels everything meticulously.\n\nOutside work, I train jujitsu three evenings a week at a club called Zandvliet Martial Arts, which is technically a fifteen-minute bike ride from my house. I started at age fifteen and received my blue belt in March 2023. My instructor, Sensei Wouter Claes, has been training for over thirty years and runs the club with his wife. I genuinely love the technical problem-solving aspect of ground work \u2014 it feels not entirely unlike the precision required at the forge.\n\nMy other obsession is vinyl. I collect jazz records, and my current collection sits at around 140 albums stored in two wooden crates under my bed. My most prized possession is a 1959 original Blue Note pressing of John Coltrane's 'Giant Steps' that I found at a flea market in the Vrijdagmarkt square for twelve euros \u2014 a price the seller clearly regretted when I got home and looked it up. I play records on a Pro-Ject Debut Carbon turntable I bought secondhand from a colleague in 2021. Miles Davis, Thelonious Monk, and Chet Baker are my most-played artists. There's something about putting on a record after a long day at the forge \u2014 hands still a little sore, the needle dropping into the groove \u2014 that resets everything.",
+      "main_qa": [
+        {
+          "q": "What district of Antwerp does Lena live in?",
+          "a": "Borgerhout"
+        },
+        {
+          "q": "Where did Lena complete her vocational training in blacksmithing?",
+          "a": "Provinciale Technische School in Mechelen"
+        },
+        {
+          "q": "What is the name of the company where Lena works as an industrial blacksmith?",
+          "a": "Debacker & Zonen"
+        },
+        {
+          "q": "At what age was Lena diagnosed with celiac disease?",
+          "a": "Fourteen"
+        },
+        {
+          "q": "What belt rank did Lena receive in jujitsu in March 2023?",
+          "a": "Blue belt"
+        },
+        {
+          "q": "How much did Lena pay for her original 1959 Blue Note pressing of 'Giant Steps'?",
+          "a": "Twelve euros"
+        }
+      ],
+      "probe2_qa": [
+        {
+          "q": "What is the name of the caf\u00e9 on the Kloosterstraat that Lena trusts for gluten-free eating?",
+          "a": "De Groene Peer"
+        },
+        {
+          "q": "What turntable model does Lena use to play her vinyl records?",
+          "a": "Pro-Ject Debut Carbon"
+        },
+        {
+          "q": "Approximately how many vinyl albums does Lena have in her collection?",
+          "a": "Around 140"
+        },
+        {
+          "q": "What is the name of Lena's jujitsu instructor?",
+          "a": "Wouter Claes"
+        },
+        {
+          "q": "What forge temperature does Lena typically work with at her job?",
+          "a": "Around 1,200 degrees Celsius"
+        },
+        {
+          "q": "What year did Lena's parents buy the row house in Borgerhout?",
+          "a": "2009"
+        }
+      ],
+      "id": "V3_P_120",
+      "seed_hint": "a 22-year-old industrial blacksmith living in Antwerp, Belgium, hobbies include jujitsu and vinyl jazz collecting, celiac disease",
+      "_overlap_warning": [],
+      "split": "held_out"
+    },
+    {
+      "backstory": "I was born in 1982 in Ghent, but my family moved to Antwerp when I was seven, and I've been rooted here ever since. I live in a narrow three-storey townhouse on Lange Leemstraat, just close enough to the Rubenshuis that tourists occasionally ring my bell thinking I'm part of the museum district. I'm 42 now, and I've spent the last eighteen years running a small calligraphy studio I named Inktlijn \u2014 it started as a hobby desk in my spare bedroom and grew into a proper workspace on the ground floor where I do wedding invitations, corporate lettering commissions, and the occasional book title for a publisher in Brussels.\n\nI discovered calligraphy at twenty-four when a friend dragged me to a weekend workshop at the Academie voor Schone Kunsten here in Antwerp. The instructor, a German woman named Hildegard Breuer, handed me a broad-edged nib and a sheet of practice paper, and within an hour I knew this was not a passing interest. I bought my first proper calligraphy set \u2014 a Brause kit I still have \u2014 the very next morning.\n\nThe crossword constructing came later, around 2015, when I started solving puzzles obsessively during slow winter months. Within a year I'd shifted to constructing them. I've had nine grids accepted by De Standaard, which still feels absurd to me. There's a satisfaction in locking together a 15-by-15 grid that rhymes, strangely, with the satisfaction of completing a page of Italic script \u2014 both are systems governed by invisible constraints you have to feel before you can see.\n\nThe motorcycle side of my life is messier and louder. I own two Triumph motorcycles: a 1969 Bonneville T120 that I bought in pieces from an estate sale in Mechelen in 2011, and a 1974 Tiger 100 I found through a club contact in Rotterdam in 2019. The Bonneville took me three years to restore \u2014 I sourced the correct Amal carburetors from a specialist in Coventry after exhausting every Belgian lead. I'm a member of the Antwerp Vintage Riders club, and we do a summer run every July that ends, depending on the weather, somewhere in the Ardennes.\n\nThe celiac disease was diagnosed in 2008 after two years of being told I had irritable bowel syndrome. It reorganized my kitchen entirely. I am a reasonably skilled cook now by sheer necessity. I make my own sourdough from a rice-and-buckwheat starter I've maintained since 2010. Belgian beer culture, which is almost a civic religion here, is something I navigate carefully \u2014 I keep a short list of lambics and dedicated-facility ciders that I trust. Anything brewed on shared equipment is a gamble I stopped taking.\n\nI am not married, though I was briefly engaged in my early thirties. I have a grey whippet named Quill \u2014 the name was perhaps inevitable \u2014 who sleeps under my drafting table most days and has strong opinions about the hours I keep. My best friend, Pieter Vandermeersch, teaches medieval history at the University of Antwerp and is the person most likely to beat me at my own crosswords, which I find both annoying and deeply reassuring.",
+      "main_qa": [
+        {
+          "q": "What is the name of the calligraphy studio on the ground floor of the narrator's home?",
+          "a": "Inktlijn"
+        },
+        {
+          "q": "How many crossword grids has the narrator had accepted by De Standaard?",
+          "a": "Nine"
+        },
+        {
+          "q": "What year was the Triumph Bonneville T120 that the narrator owns manufactured?",
+          "a": "1969"
+        },
+        {
+          "q": "Where did the narrator buy the Bonneville T120 in pieces?",
+          "a": "An estate sale in Mechelen"
+        },
+        {
+          "q": "What is the name of the whippet who sleeps under the drafting table?",
+          "a": "Quill"
+        },
+        {
+          "q": "In what year was the narrator diagnosed with celiac disease?",
+          "a": "2008"
+        }
+      ],
+      "probe2_qa": [
+        {
+          "q": "What city was the narrator born in?",
+          "a": "Ghent"
+        },
+        {
+          "q": "What was the name of the calligraphy instructor at the Academie voor Schone Kunsten?",
+          "a": "Hildegard Breuer"
+        },
+        {
+          "q": "What brand was the narrator's first proper calligraphy set?",
+          "a": "Brause"
+        },
+        {
+          "q": "From which city did the narrator source the correct Amal carburetors for the Bonneville restoration?",
+          "a": "Coventry"
+        },
+        {
+          "q": "What year did the narrator acquire the 1974 Triumph Tiger 100?",
+          "a": "2019"
+        },
+        {
+          "q": "What does Pieter Vandermeersch teach at the University of Antwerp?",
+          "a": "Medieval history"
+        }
+      ],
+      "id": "V3_P_121",
+      "seed_hint": "a 42-year-old calligrapher living in Antwerp, Belgium, hobbies include competitive crossword constructing and vintage Triumph motorcycles, celiac disease",
+      "_overlap_warning": [],
+      "split": "held_out"
+    },
+    {
+      "backstory": "I was born in 1959 in Dundee, Scotland, the third of four children in a family that spent every summer camping near Loch Rannoch. My father, a veterinarian named Alistair Drummond, would drag injured foxes and hedgehogs home regularly, which is probably why animals never felt foreign to me. I was diagnosed with type 1 diabetes at age nine, in 1968, which meant my childhood was punctuated by insulin injections and careful meal planning \u2014 but it never stopped me from roaming the hills with a compass and a rucksack.\n\nI moved to Marrakech in 1997 after spending eight years working for an animal welfare NGO based in Nairobi. I had intended to stay in Morocco for only two years, but I fell completely in love with the Atlas Mountain foothills and ended up buying a small property in the Ourika Valley, about 35 kilometres south of the city centre. My riad has a converted outbuilding that I use as a rehabilitation enclosure for injured Barbary macaques, Egyptian mongooses, and the occasional hedgehog \u2014 the long-eared Algerian hedgehog, specifically, which is far more common out here than most people realise.\n\nI founded the Ourika Wildlife Refuge in 2003 with a starting budget of roughly 14,000 dirhams, money I had saved from freelance consulting work. We are now a licensed facility with three part-time Moroccan staff and a revolving roster of European volunteers. Since opening, we have released over 800 animals back into the wild, a number I keep painted on a wooden sign above the enclosure door \u2014 it needs updating almost monthly.\n\nMy amateur radio hobby began in 2005 when a neighbour named Rachid gave me a decommissioned Yaesu FT-817 transceiver. I obtained my Moroccan licence the following year under the callsign CN8QD, and I now operate mostly on the 40-metre and 20-metre bands, often making contact with fellow operators in the Canary Islands and southern Spain. Radio is enormously useful during the flash floods that occasionally cut off the valley road; I can relay information to the emergency services in Marrakech when mobile networks fail.\n\nThe bagpipes are harder to explain to my Moroccan neighbours. I started learning as a teenager at Dundee's Morgan Academy, playing with the school pipe band from age 14. I brought my Fraser & Sons chanter and full set of pipes with me when I moved, and I still practise in the courtyard most Saturday mornings. The sound carries remarkably far in the valley and has, over the years, attracted curious goatherds, baffled tourists, and at least one very startled Barbary macaque who needed re-catching.\n\nManaging type 1 diabetes in a region with unreliable electricity and occasional supply chain disruptions is genuinely challenging. I use an insulin pump \u2014 a Medtronic model I have been on since 2011 \u2014 and I keep a three-month insulin reserve stored in a small generator-backed refrigerator. My endocrinologist, Dr Fatima Benali at the Clinique du Sud in Marrakech, sees me every four months and has been my physician since 2009. I do not let the condition define my days, but I do not ignore it either. At 65, I find that the rhythm of caring for injured animals, tinkering with radio equipment, and blowing air through a bag of Scottish pipes is the finest possible medicine for a body that requires a certain amount of daily vigilance.",
+      "main_qa": [
+        {
+          "q": "What is the name of the wildlife refuge the narrator founded?",
+          "a": "Ourika Wildlife Refuge"
+        },
+        {
+          "q": "What year did the narrator move to Marrakech?",
+          "a": "1997"
+        },
+        {
+          "q": "What amateur radio callsign does the narrator hold?",
+          "a": "CN8QD"
+        },
+        {
+          "q": "How old was the narrator when they were diagnosed with type 1 diabetes?",
+          "a": "Nine"
+        },
+        {
+          "q": "What was the starting budget for the Ourika Wildlife Refuge?",
+          "a": "14,000 dirhams"
+        },
+        {
+          "q": "Who gave the narrator their first radio transceiver?",
+          "a": "Rachid"
+        }
+      ],
+      "probe2_qa": [
+        {
+          "q": "At which school did the narrator learn to play bagpipes?",
+          "a": "Morgan Academy"
+        },
+        {
+          "q": "What model of insulin pump does the narrator use?",
+          "a": "Medtronic"
+        },
+        {
+          "q": "How far is the narrator's property from Marrakech city centre?",
+          "a": "About 35 kilometres"
+        },
+        {
+          "q": "What is the name of the narrator's endocrinologist?",
+          "a": "Dr Fatima Benali"
+        },
+        {
+          "q": "In what year did the narrator obtain their Moroccan amateur radio licence?",
+          "a": "2006"
+        },
+        {
+          "q": "Where was the NGO based where the narrator worked for eight years before moving to Morocco?",
+          "a": "Nairobi"
+        }
+      ],
+      "id": "V3_P_122",
+      "seed_hint": "a 65-year-old wildlife rehabilitator living in Marrakech, Morocco, hobbies include amateur radio and highland bagpipes, type 1 diabetes",
+      "_overlap_warning": [],
+      "split": "held_out"
+    },
+    {
+      "backstory": "I'm Callum Ouzzani, and I'll be 66 in March \u2014 66 years of a life that has taken more unexpected turns than any crossword I've ever built. I was born on March 14, 1959, in Inverness, Scotland, to a Scottish father and a Moroccan mother from F\u00e8s, which explains the surname that confuses everyone I meet. We moved to Marrakech when I was eleven, after my father, a civil engineer named Douglas Ouzzani, took a contract rebuilding irrigation infrastructure in the Haouz plain. I never went back to live in Scotland, though I visit my cousin Fiona in Nairn every few summers.\n\nI've worked as a park ranger in the Toubkal National Park since 1991 \u2014 thirty-three years now, longer than some of my colleagues have been alive. The park covers roughly 380 square kilometres in the High Atlas mountains, and I know most of it the way other men know their living rooms. My official base is the ranger station just outside Imlil village, about 60 kilometres south of Marrakech, but I rent a small apartment in the Gu\u00e9liz neighbourhood of Marrakech itself, on Rue Ibn Aicha, where I spend my days off. I was diagnosed with type 1 diabetes in 1987, when I was 28, and managing insulin at altitude in variable temperatures took years of hard-won discipline. I carry a glucose meter and two spare insulin pens in a small insulated pouch strapped to my belt every single shift.\n\nThe bagpipes came back into my life in 2003. My father had taught me the basics on a practice chanter as a child, but I'd abandoned it for decades. A Scottish tourist left a set of Highland pipes at the ranger station \u2014 genuinely forgot them on a group trek \u2014 and never came back to collect them. After six months I put up notices, heard nothing, and simply kept them. I now practice for at least forty-five minutes every evening on the roof terrace of my apartment. My neighbours in Gu\u00e9liz have a complicated relationship with this habit.\n\nThe crossword constructing is the more solitary obsession. I began submitting puzzles to Al-Araby magazine in 2011, and by 2014 I had won their annual constructors' competition twice. I work exclusively in Arabic for that outlet, but I also construct English-language puzzles that I submit to a small syndicate based in Dublin called GridIron Puzzles Ltd., which distributes to about forty regional newspapers. My grids are always 15\u00d715 and I refuse to use computer-generation software \u2014 every clue written by hand in a set of graph-paper notebooks I buy from a stationery shop called Bouzid Papeterie near the Koutoubia Mosque. I currently have fourteen completed notebooks on my shelf.\n\nLife here is unglamorous and entirely mine. I eat lunch most days at a small restaurant called Chez Brahim on the edge of the medina that does a lamb tagine I've been ordering since 2006. I drink my coffee without sugar \u2014 obviously \u2014 and I sleep well, mostly, when my blood sugar behaves. I am not lonely. I am exactly where I belong.",
+      "main_qa": [
+        {
+          "q": "What is Callum's full name?",
+          "a": "Callum Ouzzani"
+        },
+        {
+          "q": "In what year did Callum begin working at Toubkal National Park?",
+          "a": "1991"
+        },
+        {
+          "q": "How was Callum diagnosed with type 1 diabetes relative to his age \u2014 how old was he?",
+          "a": "28"
+        },
+        {
+          "q": "Where did Callum obtain his set of Highland bagpipes?",
+          "a": "A Scottish tourist left them at the ranger station"
+        },
+        {
+          "q": "What Dublin-based company syndicates Callum's English-language crossword puzzles?",
+          "a": "GridIron Puzzles Ltd."
+        },
+        {
+          "q": "How many years has Callum been working as a park ranger as of the time of his account?",
+          "a": "Thirty-three years"
+        }
+      ],
+      "probe2_qa": [
+        {
+          "q": "In which neighbourhood of Marrakech does Callum rent his apartment?",
+          "a": "Gu\u00e9liz"
+        },
+        {
+          "q": "What was Callum's father's first name?",
+          "a": "Douglas"
+        },
+        {
+          "q": "From which magazine did Callum win an annual constructors' competition twice by 2014?",
+          "a": "Al-Araby magazine"
+        },
+        {
+          "q": "What size grids does Callum use for his crossword puzzles?",
+          "a": "15\u00d715"
+        },
+        {
+          "q": "What is the name of the restaurant near the medina where Callum has been eating lunch since 2006?",
+          "a": "Chez Brahim"
+        },
+        {
+          "q": "Approximately how far is the Imlil ranger station from Marrakech?",
+          "a": "About 60 kilometres"
+        }
+      ],
+      "id": "V3_P_123",
+      "seed_hint": "a 65-year-old park ranger living in Marrakech, Morocco, hobbies include highland bagpipes and competitive crossword constructing, type 1 diabetes",
+      "_overlap_warning": [],
+      "split": "held_out"
+    },
+    {
+      "backstory": "I was born in Moose Jaw in 1977 and grew up watching my mother, a registered nurse herself, work double shifts at the old Union Hospital before it was decommissioned. That image of her in scrubs at the kitchen table, still doing chart notes at midnight, probably planted the seed. I moved to Saskatoon in 2001 to study nursing at the University of Saskatchewan, and I've been here ever since \u2014 twenty-three years now, which still surprises me when I say it out loud. I work in the Neonatal Intensive Care Unit at Royal University Hospital, where I've been for the last fourteen years. There's nothing quite like watching a 28-week preemie finally go home with her parents. I've cried in the parking lot more times than I can count, both from grief and from relief.\n\nI was diagnosed with type 1 diabetes when I was eleven years old, in 1988. My parents drove me to Regina General for the initial stabilization because the local clinic wasn't equipped. Managing it as a shift worker is genuinely hard \u2014 overnight rotations play havoc with insulin timing, and I've had to become almost obsessive about logging glucose levels. I use a Dexcom G7 continuous monitor now, which has genuinely changed my life compared to the finger-prick regime I suffered through for decades.\n\nThe motorcycles started because of my uncle Dale, who kept a 1969 Triumph Bonneville T120 in his garage in Swift Current. He let me sit on it when I was about eight years old and I never got over it. I bought my first Triumph \u2014 a 1972 TR6 Trophy \u2014 at an estate auction in Outlook, Saskatchewan in 2009, for $1,400. It needed a complete carburettor rebuild and new fork seals, and I taught myself most of it from a Haynes manual and a forum called TriumphRat.net. I currently own three bikes: the '72 TR6, a 1965 Thunderbird 6T that I sourced from a seller in Lethbridge, Alberta, and a 1970 Daytona T100 that I'm still restoring. The garage behind my house on Wiggins Avenue is basically a shrine at this point.\n\nThe jazz vinyl collection grew out of a long winter and a secondhand turntable I found at Value Village on 8th Street for twelve dollars in 2014. I started seriously collecting in 2015 and now have just over 340 albums. My absolute favourite is a 1958 Blue Note pressing of Sonny Rollins' 'A Night at the Village Vanguard,' which I found at a record fair in Regina in 2019 and paid $85 for. I also have a deep love for early Miles Davis \u2014 'Kind of Blue' in a 1959 Columbia six-eye pressing sits right at the front of my collection. I source records from a shop called Vinyl Diner here in Saskatoon whenever I can, partly because the owner, a guy named Patrick, actually knows what he's talking about.\n\nI live alone but I wouldn't say I'm lonely. My sister Renata visits from Winnipeg every summer, and the motorcycle community out here is genuinely warm. I ride to the Qu'Appelle Valley most Septembers when the aspen are turning, which is about as close to a religious experience as I get.",
+      "main_qa": [
+        {
+          "q": "Where does the narrator currently work?",
+          "a": "Royal University Hospital"
+        },
+        {
+          "q": "What year was the narrator diagnosed with type 1 diabetes?",
+          "a": "1988"
+        },
+        {
+          "q": "How much did the narrator pay for their first Triumph motorcycle?",
+          "a": "$1,400"
+        },
+        {
+          "q": "What model was the narrator's first Triumph motorcycle?",
+          "a": "1972 TR6 Trophy"
+        },
+        {
+          "q": "What is the narrator's most prized jazz record?",
+          "a": "1958 Blue Note pressing of Sonny Rollins' 'A Night at the Village Vanguard'"
+        },
+        {
+          "q": "How long has the narrator lived in Saskatoon?",
+          "a": "Twenty-three years"
+        }
+      ],
+      "probe2_qa": [
+        {
+          "q": "Where was the narrator born?",
+          "a": "Moose Jaw"
+        },
+        {
+          "q": "What university did the narrator attend for nursing?",
+          "a": "University of Saskatchewan"
+        },
+        {
+          "q": "What city did Uncle Dale live in?",
+          "a": "Swift Current"
+        },
+        {
+          "q": "How much did the narrator pay for the secondhand turntable at Value Village?",
+          "a": "Twelve dollars"
+        },
+        {
+          "q": "How many vinyl albums does the narrator currently own?",
+          "a": "Just over 340"
+        },
+        {
+          "q": "What is the name of the record shop owner in Saskatoon?",
+          "a": "Patrick"
+        }
+      ],
+      "id": "V3_P_124",
+      "seed_hint": "a 47-year-old neonatal ICU nurse living in Saskatoon, Saskatchewan, hobbies include vintage Triumph motorcycles and vinyl jazz collecting, type 1 diabetes",
+      "_overlap_warning": [],
+      "split": "held_out"
+    },
+    {
+      "backstory": "I grew up in Clermont-Ferrand, right in the belly of the Auvergne region, where my grandmother H\u00e9l\u00e8ne ran a small charcuterie on Rue du Port. She was the one who taught me that patience and obsessive attention to detail are the only tools that matter in a kitchen \u2014 or in life, really. I moved to Marseille at twenty-three to take a sous-chef position at a brasserie called Le Phare Bleu on the Vieux-Port, and I've been here ever since. I turned thirty-one in April, and I've spent more than half my life either cooking professionally or dreaming about it.\n\nI was diagnosed with celiac disease at twenty-six, which hit me hard because I was elbow-deep in bread dough every morning at the time. It forced a complete reinvention of how I approached cooking \u2014 I had to throw out maybe forty percent of my standard repertoire and rebuild from scratch using alternative flours and fermentation techniques. Honestly, it made me a better chef. My restaurant, Cendres et Sel, opened in 2021 on Cours Julien, and the entire menu is gluten-free by design, not by apology. We have thirty-eight covers and a four-month waiting list as of last spring.\n\nOutside the kitchen, I have two passions that most people find either charming or deeply strange. The first is competitive yo-yo. I started in 2018 after watching a French national qualifier tournament held in Lyon on a whim \u2014 I'd gone to visit my old culinary school friend Damien, who was competing. Within six months I had bought my first serious bearing-equipped yo-yo, a titanium Recess First Base modified with custom axle work, and I started entering regional competitions. I came in fourth at the Rh\u00f4ne-Alpes regional qualifier in March 2023, which I'm absurdly proud of. The string tension discipline requires the same muscle memory as filleting a fish \u2014 small, precise, repetitive movements until they become instinct.\n\nThe second hobby is amateur taxidermy. I keep a dedicated workbench in my spare bedroom where I mount small animals \u2014 mostly birds and the occasional rabbit. I learned the basics from a retired naturalist named G\u00e9rard Fontaine, who gave a weekend workshop in Aubagne that I stumbled across in late 2019. I've completed eleven mounts so far, and my favourite is a European kingfisher I did last February that now sits on the shelf above my stove at home. Friends think it's macabre; I think it's a form of respect for the animal and a meditation on structure beneath surface \u2014 which, come to think of it, is exactly what cooking is.\n\nI live in a third-floor apartment on Rue Sainte in the 7th arrondissement, close enough to the market on Boulevard Michelet that I do my personal shopping on foot every Tuesday morning. My kitchen at home is smaller than a walk-in closet compared to Cendres et Sel, but I cook dinner there almost every night regardless \u2014 usually something simple, like a chickpea socca with preserved lemon or a slow-braised lamb neck with polenta. I drink one glass of Bandol ros\u00e9 with dinner because the region is fifteen minutes away and I feel it would be a personal failing not to.",
+      "main_qa": [
+        {
+          "q": "What is the name of the restaurant the persona currently runs?",
+          "a": "Cendres et Sel"
+        },
+        {
+          "q": "On which street in Marseille is the restaurant located?",
+          "a": "Cours Julien"
+        },
+        {
+          "q": "How many seats does the restaurant have?",
+          "a": "Thirty-eight covers"
+        },
+        {
+          "q": "At what age was the persona diagnosed with celiac disease?",
+          "a": "Twenty-six"
+        },
+        {
+          "q": "What was the name of the brasserie where the persona worked as sous-chef upon arriving in Marseille?",
+          "a": "Le Phare Bleu"
+        },
+        {
+          "q": "What placement did the persona achieve at the Rh\u00f4ne-Alpes regional yo-yo qualifier in 2023?",
+          "a": "Fourth"
+        }
+      ],
+      "probe2_qa": [
+        {
+          "q": "In which city did the persona grow up?",
+          "a": "Clermont-Ferrand"
+        },
+        {
+          "q": "What was the name of the persona's grandmother?",
+          "a": "H\u00e9l\u00e8ne"
+        },
+        {
+          "q": "What type of shop did the grandmother run?",
+          "a": "A charcuterie"
+        },
+        {
+          "q": "Who introduced the persona to competitive yo-yo?",
+          "a": "Damien"
+        },
+        {
+          "q": "From whom did the persona learn taxidermy?",
+          "a": "G\u00e9rard Fontaine"
+        },
+        {
+          "q": "How many taxidermy mounts has the persona completed so far?",
+          "a": "Eleven"
+        }
+      ],
+      "id": "V3_P_125",
+      "seed_hint": "a 31-year-old executive chef living in Marseille, France, hobbies include competitive yo-yo and amateur taxidermy, gluten-free for medical reasons",
+      "_overlap_warning": [],
+      "split": "held_out"
+    },
+    {
+      "backstory": "I'm Miriam Okafor, 47 years old, and I've lived in the Hang Dong district of Chiang Mai, Thailand for the past eleven years. I moved here in 2013 after spending nearly a decade working as a veterinary technician in Christchurch, New Zealand, where I first fell in love with working dogs. My partner, Chalerm, is a structural engineer, and it was his job transfer that originally brought us here \u2014 though neither of us expected to stay so long.\n\nI compete in sheepdog trials with my two Border Collies, Nessa and Fig. Nessa is six years old and has been my serious trial dog since she was about eighteen months; she and I placed second at the 2022 Northern Thailand Working Dog Association trials held outside Chiang Rai, which remains my proudest competitive result to date. Fig is only two and still learning the finer points of shedding. Finding actual sheep to work with in Chiang Mai is an ongoing logistical puzzle \u2014 I rent time with a small flock owned by a farmer named Khun Boonlert in Mae Rim, about 22 kilometers from my house, and we go out there every Saturday morning without fail.\n\nBeyond the dogs, I brew kombucha at home in ceramic crocks I sourced from a pottery village near Lampang. I maintain three active SCOBY cultures at any given time and currently have a 19-liter batch of ginger-turmeric blend fermenting in my kitchen. I started brewing about five years ago partly out of necessity \u2014 I was diagnosed with celiac disease in 2019, which forced me to overhaul my entire diet and cut gluten completely. That diagnosis was a difficult adjustment, particularly in Thailand where soy sauce is in nearly everything, but it ultimately pushed me toward fermenting and cooking from scratch, which I now love.\n\nI also volunteer with the Chiang Mai Mountain Rescue Unit, a group of about 35 volunteers that operates primarily in the Doi Inthanon and Doi Suthep-Pui national park areas. I completed my wilderness first responder certification through a course run in January 2021 in Pai, and I've participated in fourteen documented search-and-rescue operations since joining the unit in late 2020. Nessa occasionally comes on operations where a dog's tracking instincts are useful, though she isn't formally certified as a SAR dog \u2014 that certification process is something I'm actively exploring for her.\n\nMy house in Hang Dong is a modest two-story concrete and teak structure with a large walled garden where the dogs have room to run. I grow rosemary, Thai basil, and two varieties of chili along the south wall. Every weekday morning I drive a 2018 Honda PCX scooter to a language school in Nimman where I teach English to adult professional students \u2014 it's not what I trained for, but it pays reliably and I genuinely enjoy it. I hold a CELTA qualification I earned through a weekend intensive course in Bangkok back in 2014.\n\nI stay in touch with a sheepdog handler community mostly online through a forum called Border Collie Connect, where I've been an active member since 2010, long before my Thailand chapter began. People sometimes find it odd \u2014 a competitive sheepdog handler in a tropical city \u2014 but Chiang Mai has surprised me repeatedly with what it makes possible.",
+      "main_qa": [
+        {
+          "q": "What is Miriam's full name?",
+          "a": "Miriam Okafor"
+        },
+        {
+          "q": "In which district of Chiang Mai does Miriam live?",
+          "a": "Hang Dong"
+        },
+        {
+          "q": "What was Miriam's occupation before moving to Thailand?",
+          "a": "veterinary technician"
+        },
+        {
+          "q": "What was Miriam's best competitive result with Nessa?",
+          "a": "second place at the 2022 Northern Thailand Working Dog Association trials"
+        },
+        {
+          "q": "What medical condition was Miriam diagnosed with in 2019?",
+          "a": "celiac disease"
+        },
+        {
+          "q": "How many search-and-rescue operations has Miriam participated in since joining the unit?",
+          "a": "fourteen"
+        }
+      ],
+      "probe2_qa": [
+        {
+          "q": "What city did Miriam live in before moving to Thailand?",
+          "a": "Christchurch, New Zealand"
+        },
+        {
+          "q": "What is the name of the farmer whose flock Miriam uses for sheepdog training?",
+          "a": "Khun Boonlert"
+        },
+        {
+          "q": "How large is Miriam's current kombucha batch?",
+          "a": "19 liters"
+        },
+        {
+          "q": "What year did Miriam join the Chiang Mai Mountain Rescue Unit?",
+          "a": "late 2020"
+        },
+        {
+          "q": "Where did Miriam earn her CELTA qualification?",
+          "a": "Bangkok"
+        },
+        {
+          "q": "What online community has Miriam been a member of since 2010?",
+          "a": "Border Collie Connect"
+        }
+      ],
+      "id": "V3_P_126",
+      "seed_hint": "a 47-year-old competitive sheepdog handler living in Chiang Mai, Thailand, hobbies include kombucha brewing and volunteer search-and-rescue, gluten-free for medical reasons",
+      "_overlap_warning": [],
+      "split": "held_out"
+    },
+    {
+      "backstory": "I never expected to end up back in school at 47, but here I am, halfway through a Master's degree in oceanography at the University of Saskatchewan in Saskatoon. I grew up in Dartmouth, Nova Scotia, right across the harbour from Halifax, which is probably where my obsession with the ocean began. My father worked on a container vessel for Oceanex Shipping, so saltwater was practically in my blood. But life took me inland \u2014 I spent nearly two decades working as a land surveyor for a municipal engineering firm called TriSpec Solutions in Regina, where I clocked in every day from 2004 until 2021. The work paid well and I was good at it, but after my divorce in 2019 I found myself reassessing everything. I sold the house on Wascana Drive and used part of the proceeds to finally go back to school.\n\nI enrolled at U of S in January 2022, focusing my research on sediment transport in Arctic coastal systems. My supervisor, Dr. Lena Marchetti, is one of the foremost people in Canada working on permafrost-adjacent shoreline erosion, and I feel genuinely lucky to have landed in her lab. My thesis is looking specifically at sediment flux rates along the Mackenzie Delta, and I'm planning a field season up near Inuvik this coming August.\n\nLiving in Saskatoon on a graduate stipend of $21,000 a year after nearly two decades of a surveyor's salary has required serious adjustment. I rent a one-bedroom apartment on Avenue P South for $975 a month, which is manageable, but there isn't much left over. I do most of my own cooking, which is non-negotiable anyway because I was diagnosed with celiac disease in 2017. That diagnosis changed my relationship with food completely \u2014 I've become a competent enough baker using rice flour and tapioca blends, and I know every gluten-free-friendly restaurant in the city by heart.\n\nDisc golf keeps me sane. There's a solid 18-hole course at Diefenbaker Park that I play at least twice a week when the weather cooperates, which in Saskatchewan means roughly May through October. I throw a Discraft Buzzz as my go-to midrange disc and have been slowly working my handicap down. I joined the Saskatoon Disc Golf Club in the spring of 2022 and have made a few genuinely good friends there, mostly people a decade younger than me who seem unbothered by having a middle-aged oceanography student tagging along.\n\nI also race with a dragon boat team called the Prairie Paddlers, which sounds incongruous for a landlocked city but there's actually a vibrant paddling community on the South Saskatchewan River. We practice on Tuesday and Thursday evenings from June through September at the Rotary Park boat launch. Our team finished third in the recreational division at the Saskatchewan Dragon Boat Festival in 2023, which felt like a genuine achievement given we'd only been together as a crew for about fourteen months.\n\nI don't know exactly what I'll do with this degree. Maybe federal fisheries work, maybe something with the Department of Oceans and Climate up north. But for the first time since my twenties, I feel like I'm pointed in the right direction.",
+      "main_qa": [
+        {
+          "q": "What university is this person attending for their graduate degree?",
+          "a": "University of Saskatchewan"
+        },
+        {
+          "q": "What is the name of their thesis supervisor?",
+          "a": "Dr. Lena Marchetti"
+        },
+        {
+          "q": "What medical condition requires them to eat gluten-free?",
+          "a": "Celiac disease"
+        },
+        {
+          "q": "What is their annual graduate stipend?",
+          "a": "$21,000"
+        },
+        {
+          "q": "What is the name of their dragon boat team?",
+          "a": "Prairie Paddlers"
+        },
+        {
+          "q": "In what year did they enroll at U of S?",
+          "a": "January 2022"
+        }
+      ],
+      "probe2_qa": [
+        {
+          "q": "What city did this person grow up in?",
+          "a": "Dartmouth, Nova Scotia"
+        },
+        {
+          "q": "What was the name of the engineering firm where they worked as a land surveyor?",
+          "a": "TriSpec Solutions"
+        },
+        {
+          "q": "What specific disc do they use as their go-to midrange in disc golf?",
+          "a": "Discraft Buzzz"
+        },
+        {
+          "q": "What is the subject area of their Master's thesis research?",
+          "a": "Sediment transport in Arctic coastal systems"
+        },
+        {
+          "q": "Where do the Prairie Paddlers practice dragon boat racing?",
+          "a": "Rotary Park boat launch"
+        },
+        {
+          "q": "What place did their dragon boat team finish at the 2023 Saskatchewan Dragon Boat Festival?",
+          "a": "Third in the recreational division"
+        }
+      ],
+      "id": "V3_P_127",
+      "seed_hint": "a 47-year-old graduate student in oceanography living in Saskatoon, Saskatchewan, hobbies include disc golf and dragon boat racing, gluten-free for medical reasons",
+      "_overlap_warning": [],
+      "split": "held_out"
+    },
+    {
+      "backstory": "My name is Th\u00e9o Marchand, and I turned 22 last March. I grew up in Arles, about an hour northwest of Marseille, where my grandfather kept Camargue horses on a small property near the Rh\u00f4ne delta. He was the one who first dragged me to a livestock auction at the Arles cattle market when I was nine years old, and I was completely mesmerized by the speed and rhythm of the auctioneer's voice. I decided right then that it was what I wanted to do. After finishing my baccalaur\u00e9at, I enrolled in a six-month vocational program at the Chambre d'Agriculture in N\u00eemes, which certified me as a professional livestock auctioneer in June 2022. By September of that year, I had landed a position at the Abattoir et March\u00e9 de B\u00e9tail yard on the outskirts of Marseille in the 15th arrondissement. I auction mostly sheep and goats \u2014 occasionally some cattle \u2014 three days a week, Tuesday, Thursday, and Saturday mornings starting at 7 a.m. It's loud, physical work, and I love it.\n\nI moved into a small apartment in the La Cabucelle neighborhood of Marseille's 15th arrondissement when I started the job. The rent is 640 euros a month for a one-bedroom, which stretches my salary but I manage. To decompress after long auction days, I have two hobbies that couldn't feel more different from each other. The first is amateur astronomy. I drive about 40 kilometers northeast of the city on clear nights to a spot near Allauch where light pollution drops enough to actually see the Milky Way. I use a Celestron NexStar 8SE telescope I bought secondhand for 800 euros eighteen months ago. My favorite deep-sky object is the Orion Nebula \u2014 I've photographed it at least a dozen times and it still doesn't get old.\n\nMy second hobby is brewing kombucha. I have three SCOBY cultures going at any given time in my kitchen \u2014 a plain green tea base, a hibiscus blend, and one I've been experimenting with using herbes de Provence, which honestly tastes a bit strange but I'm stubborn about it. I source most of my loose-leaf tea from a small shop on Rue Longue-des-Capucins in Marseille's Noailles district.\n\nThe hobby that ties everything together for me, though, is amateur radio. I passed my HAREC exam \u2014 that's the European harmonized amateur radio certificate \u2014 in February 2023 after studying for four months. My assigned call sign is F4XWT. I mostly operate on the 40-meter and 20-meter HF bands. I've made contacts with operators as far away as Japan and Argentina. There's something about sending a voice out into the ionosphere and having a stranger in Osaka respond that reminds me of the auction floor \u2014 you're projecting into open space and waiting to see who answers. My radio setup sits on a small desk wedged between the kitchen and my telescope eyepiece case, making my apartment look like a very specific kind of chaos. My grandfather, who is 71 now and still keeps two horses in Arles, thinks all of it is deeply eccentric, but he drives up to visit me in Marseille every couple of months and always asks me to show him something through the telescope.",
+      "main_qa": [
+        {
+          "q": "What is Th\u00e9o's amateur radio call sign?",
+          "a": "F4XWT"
+        },
+        {
+          "q": "Where did Th\u00e9o complete his livestock auctioneer certification program?",
+          "a": "Chambre d'Agriculture in N\u00eemes"
+        },
+        {
+          "q": "What telescope does Th\u00e9o use for amateur astronomy?",
+          "a": "Celestron NexStar 8SE"
+        },
+        {
+          "q": "What is Th\u00e9o's favorite deep-sky object to photograph?",
+          "a": "the Orion Nebula"
+        },
+        {
+          "q": "In which month and year did Th\u00e9o pass his HAREC amateur radio exam?",
+          "a": "February 2023"
+        },
+        {
+          "q": "How much did Th\u00e9o pay for his secondhand telescope?",
+          "a": "800 euros"
+        }
+      ],
+      "probe2_qa": [
+        {
+          "q": "How many SCOBY kombucha cultures does Th\u00e9o have running at any one time?",
+          "a": "three"
+        },
+        {
+          "q": "What neighborhood of Marseille does Th\u00e9o live in?",
+          "a": "La Cabucelle"
+        },
+        {
+          "q": "How much is Th\u00e9o's monthly rent?",
+          "a": "640 euros"
+        },
+        {
+          "q": "How old was Th\u00e9o when he first attended a livestock auction with his grandfather?",
+          "a": "nine years old"
+        },
+        {
+          "q": "What radio bands does Th\u00e9o mostly operate on?",
+          "a": "the 40-meter and 20-meter HF bands"
+        },
+        {
+          "q": "How old is Th\u00e9o's grandfather?",
+          "a": "71"
+        }
+      ],
+      "id": "V3_P_128",
+      "seed_hint": "a 22-year-old auctioneer at a livestock yard living in Marseille, France, hobbies include amateur astronomy and kombucha brewing, amateur radio call sign",
+      "_overlap_warning": [],
+      "split": "held_out"
+    },
+    {
+      "backstory": "I grew up on a sheep farm outside Midelt, a small town in the Middle Atlas mountains of Morocco, where my family ran about 340 head of Beni Guil sheep and sold wool at the weekly Thursday market. My father, Hassan, woke us at 4:30 every morning to check the flock before school, and my mother, Fatima, kept the accounts in a green ledger she never let anyone else touch. I have two older sisters and a younger brother, and I was the only one who found the isolation funny rather than suffocating. I started doing impressions of the livestock auctioneer at the market when I was around ten, and by secondary school I was the unofficial class clown at Lyc\u00e9e Ibn Battuta in Midelt, where I also somehow managed decent marks in mathematics.\n\nI moved to Marrakech in September 2018 when I was twenty-one, sharing a two-room apartment in the Mellah district with a university friend named Karim for the first three years. I started doing five-minute open-mic sets at a caf\u00e9 called Riad Bab Doukkala every other Thursday, mostly roasting the gap between Medina life and Instagram tourist expectations. By 2021 I had built a small following, and a booker named Sylvie Marchand flew me to a festival in Lyon, France, for my first international gig \u2014 twenty minutes, paid 400 euros, which I considered a fortune. I was nervous enough to forget an entire bit about airport security, but the crowd laughed anyway.\n\nI am twenty-seven now, and I live alone in a one-bedroom flat on Rue de Yougoslavie, a slightly chaotic street near the train station. My rent is 2,800 dirhams a month, which I cover through a combination of paid gigs, a weekly Arabic-language podcast I co-host called Dahk Min Al-Qalb \u2014 Laughter from the Heart \u2014 and occasional translation work for a tourism agency.\n\nThe thing that grounds me most outside of comedy is my 1972 Triumph Bonneville T120, which I bought in rough condition from a mechanic in Casablanca in early 2022 for 18,000 dirhams. I spent nearly eight months restoring it myself, learning to true spoke wheels and rebuild carburetors from a dog-eared British workshop manual I found at a secondhand bookshop on Rue Bab Agnaou. The motorcycle is painted a two-tone tangerine and cream that I mixed myself, and I take it out into the Agafay Desert most Friday mornings when I do not have a late Thursday show.\n\nThe volunteer work started almost by accident. A friend mentioned that the Association Marocaine de Secours en Montagne, a mountain search-and-rescue group, was recruiting in Marrakech in March 2023 to cover the High Atlas foothills. I went to one training weekend expecting to quit after the first hike and ended up staying. We train every second Sunday at a staging area near Asni, about 47 kilometres south of Marrakech, and the team has twelve active members. We have been called out on four actual missing-person operations since I joined, including one in January 2024 when we recovered an injured German hiker on the slopes of Jebel Toubkal after seventeen hours. That night, sitting in the van on the drive back, I thought about how the farm taught me to read weather and terrain without knowing it, which is probably the most useful thing my childhood gave me \u2014 even more useful than the sheep impressions.",
+      "main_qa": [
+        {
+          "q": "What town did the narrator grow up near?",
+          "a": "Midelt"
+        },
+        {
+          "q": "What year did the narrator move to Marrakech?",
+          "a": "September 2018"
+        },
+        {
+          "q": "What is the name of the podcast the narrator co-hosts?",
+          "a": "Dahk Min Al-Qalb"
+        },
+        {
+          "q": "How much did the narrator pay for the Triumph Bonneville?",
+          "a": "18,000 dirhams"
+        },
+        {
+          "q": "What year and model is the narrator's motorcycle?",
+          "a": "1972 Triumph Bonneville T120"
+        },
+        {
+          "q": "How many hours did the search operation for the injured German hiker take?",
+          "a": "Seventeen hours"
+        }
+      ],
+      "probe2_qa": [
+        {
+          "q": "What is the name of the caf\u00e9 where the narrator first did open-mic sets?",
+          "a": "Riad Bab Doukkala"
+        },
+        {
+          "q": "What was the narrator's monthly rent on Rue de Yougoslavie?",
+          "a": "2,800 dirhams"
+        },
+        {
+          "q": "Who booked the narrator's first international gig?",
+          "a": "Sylvie Marchand"
+        },
+        {
+          "q": "How far from Marrakech is the search-and-rescue training area near Asni?",
+          "a": "47 kilometres"
+        },
+        {
+          "q": "How many active members does the narrator's search-and-rescue team have?",
+          "a": "Twelve"
+        },
+        {
+          "q": "What colors did the narrator paint the restored Triumph?",
+          "a": "Tangerine and cream"
+        }
+      ],
+      "id": "V3_P_129",
+      "seed_hint": "a 27-year-old stand-up comedian living in Marrakech, Morocco, hobbies include vintage Triumph motorcycles and volunteer search-and-rescue, raised on a farm",
+      "_overlap_warning": [],
+      "split": "held_out"
+    },
+    {
+      "backstory": "I was born in the spring of 1953 in Moose Jaw, Saskatchewan, the second of four children in a family that moved to Saskatoon when I was nine years old. My name is Gerald Ostrowski, and I've lived on Poplar Crescent in the Nutana neighbourhood of Saskatoon for the past thirty-one years. I took up calligraphy in my late twenties after watching a demonstration at the Mendel Art Gallery in 1981 \u2014 a woman named Ruth Claverley was rendering Cyrillic script in iron gall ink, and I was transfixed. Within a year I had enrolled in a correspondence course through the Society of Scribes in New York, and by 1985 I was teaching workshops at the Saskatoon Public Library on Saturday mornings.\n\nI work primarily with a broad-edged nib, and my preferred hand is Italic, though I spent three years in the early 1990s obsessing over Copperplate. I use Winsor & Newton gouache for colour work and keep roughly forty nibs in a flat tin that once held Danish butter cookies. The calligraphy has never made me wealthy \u2014 I supplement it by doing commissioned wedding certificates and the occasional signage for a local heritage foundation on 22nd Street.\n\nIn 1998 a gastroenterologist named Dr. Anita Mehrotra finally gave a name to decades of stomach trouble: celiac disease. That diagnosis changed how I cook, how I shop, and frankly how I socialise. I bake my own rye-free sourdough using a sorghum and tapioca blend I've refined over eight years, and I keep a strict list of the six restaurants in Saskatoon where I trust the kitchen staff to understand cross-contamination.\n\nThe motorcycles came before the calligraphy, actually. My older brother Leszek bought a 1967 Triumph Bonneville T120 when we were teenagers and let me ride it exactly twice before he sold it to pay a debt. I never forgave him, and I never forgot the machine. In 2004 I purchased my own 1969 Triumph Trophy TR6 at an estate auction in Winnipeg for $3,200 \u2014 it needed a complete engine rebuild, which I completed over eighteen months with guidance from a retired mechanic named Don Fafard in the Riversdale area. I now own three Triumphs: the Trophy, a 1972 Bonneville T140V I acquired in 2011, and a non-running 1965 Tiger T100 that I am slowly, lovingly disassembling.\n\nKintsugi found me about six years ago when I dropped and shattered a ceramic bowl I had owned for twenty years \u2014 a piece I bought at a craft fair in Nelson, British Columbia, in 2001. Rather than discard it, I read everything I could find about the Japanese art of repairing ceramics with lacquer and gold powder. I now use a urushi-substitute resin and genuine 24-karat gold powder purchased from a supplier in Kyoto. The patience kintsugi demands is not unlike the patience calligraphy demands: you cannot hurry either one without ruining both.",
+      "main_qa": [
+        {
+          "q": "What neighbourhood of Saskatoon does Gerald live in?",
+          "a": "Nutana"
+        },
+        {
+          "q": "What disease was Gerald diagnosed with in 1998?",
+          "a": "Celiac disease"
+        },
+        {
+          "q": "Who demonstrated calligraphy at the Mendel Art Gallery that inspired Gerald?",
+          "a": "Ruth Claverley"
+        },
+        {
+          "q": "How much did Gerald pay for his 1969 Triumph Trophy TR6 at auction?",
+          "a": "$3,200"
+        },
+        {
+          "q": "What karat of gold powder does Gerald use for kintsugi repairs?",
+          "a": "24-karat"
+        },
+        {
+          "q": "What is Gerald's preferred calligraphy hand style?",
+          "a": "Italic"
+        }
+      ],
+      "probe2_qa": [
+        {
+          "q": "What year did Gerald complete the engine rebuild on his Trophy TR6?",
+          "a": "2006 (eighteen months after 2004)"
+        },
+        {
+          "q": "Where was the ceramic bowl purchased that Gerald later repaired with kintsugi?",
+          "a": "Nelson, British Columbia"
+        },
+        {
+          "q": "What correspondence course organisation did Gerald enrol with to study calligraphy?",
+          "a": "Society of Scribes in New York"
+        },
+        {
+          "q": "What year did Gerald acquire his 1972 Bonneville T140V?",
+          "a": "2011"
+        },
+        {
+          "q": "What city was Gerald born in?",
+          "a": "Moose Jaw, Saskatchewan"
+        },
+        {
+          "q": "What two flours does Gerald blend for his gluten-free sourdough?",
+          "a": "Sorghum and tapioca"
+        }
+      ],
+      "id": "V3_P_130",
+      "seed_hint": "a 71-year-old calligrapher living in Saskatoon, Saskatchewan, hobbies include vintage Triumph motorcycles and kintsugi pottery repair, celiac disease",
+      "_overlap_warning": [],
+      "split": "held_out"
+    },
+    {
+      "backstory": "I grew up in Boise, Idaho, the second of four kids in a family that couldn't agree on much except that the radio was always on. My dad had a Realistic brand receiver he'd bought from RadioShack in 1974, and I spent more hours than I should have sitting next to it, trying to figure out how sound could travel through nothing but air. By the time I graduated from Borah High School in 1971, I knew I wanted to work with audio in some capacity. I ended up enrolling at Boise State \u2014 back when it was still Boise State College \u2014 and studied communications for two years before a friend convinced me to move to Salt Lake City in 1973. I never left.\n\nI spent the bulk of my career, roughly 28 years, as a staff engineer at KUER, the public radio station out of the University of Utah. I retired from there in 2009 and figured that was the end of my professional audio life. Then my neighbor's daughter, Priya Nair, launched a true-crime podcast called 'Cedar City Shadows' in 2018 and asked if I'd help her clean up her recordings. One project led to another, and now I'm the regular sound engineer for four indie podcasts out of Salt Lake City. I work out of a small home studio I built in my basement on Garfield Avenue, where I've got a Focusrite Scarlett 18i20 interface as my main workhorse.\n\nI've been colorblind since birth \u2014 specifically red-green colorblindness, which my optometrist confirmed when I was seven years old. It made some things harder growing up, but it never touched my ears, which is what mattered most to me. People assume colorblindness is a bigger handicap than it is in everyday life. I've simply learned to navigate with it.\n\nOutside of audio work, I picked up lock picking as a sport about twelve years ago, around 2013, after watching a YouTube channel called BosnianBill. I now own a collection of 47 practice locks and attend the TOOOL Salt Lake City meetup group that gathers at a library on 9th South on the first Saturday of most months. It's a methodical, meditative hobby \u2014 the kind that suits someone who spent decades listening for tiny imperfections in sound.\n\nThe other love of my life, besides audio and locks, is swing dancing. I've been dancing Lindy Hop since 1985, when my then-girlfriend dragged me to a social at a community center in Murray, Utah. I was terrible for the first six months and then something clicked. My regular dance partner now is a woman named Dolores Kwan, and we practice every Thursday evening at a studio on State Street. We competed together at the Utah Swing Dance Championship in October 2022 and placed third in the Jack & Jill division, which, at 71, I'm genuinely proud of.\n\nI live alone since my wife Carol passed in 2016, but the basement studio keeps me busy, the Thursday dances keep me moving, and the locks keep my fingers sharp. Salt Lake City isn't what it was in 1973, but then again, neither am I.",
+      "main_qa": [
+        {
+          "q": "What public radio station did the narrator work at for about 28 years?",
+          "a": "KUER"
+        },
+        {
+          "q": "What is the name of the true-crime podcast that first brought the narrator back to professional audio work?",
+          "a": "Cedar City Shadows"
+        },
+        {
+          "q": "Who launched the podcast that got the narrator back into professional audio?",
+          "a": "Priya Nair"
+        },
+        {
+          "q": "What audio interface does the narrator use as the main workhorse in his home studio?",
+          "a": "Focusrite Scarlett 18i20"
+        },
+        {
+          "q": "In what year did the narrator first start learning lock picking as a hobby?",
+          "a": "2013"
+        },
+        {
+          "q": "What place did the narrator and his dance partner finish in the Jack & Jill division at the Utah Swing Dance Championship?",
+          "a": "Third"
+        }
+      ],
+      "probe2_qa": [
+        {
+          "q": "What specific type of colorblindness does the narrator have?",
+          "a": "Red-green colorblindness"
+        },
+        {
+          "q": "How many practice locks does the narrator own?",
+          "a": "47"
+        },
+        {
+          "q": "What is the name of the narrator's regular swing dance partner?",
+          "a": "Dolores Kwan"
+        },
+        {
+          "q": "What year did the narrator move to Salt Lake City?",
+          "a": "1973"
+        },
+        {
+          "q": "On which street does the narrator's regular Thursday dance studio sit?",
+          "a": "State Street"
+        },
+        {
+          "q": "What YouTube channel inspired the narrator to take up lock picking?",
+          "a": "BosnianBill"
+        }
+      ],
+      "id": "V3_P_131",
+      "seed_hint": "a 71-year-old sound engineer for indie podcasts living in Salt Lake City, Utah, hobbies include lock picking sport and swing dancing, color-blind",
+      "_overlap_warning": [],
+      "split": "held_out"
+    },
+    {
+      "backstory": "I was born on March 14, 1953, in Mendoza, Argentina, and I have spent nearly my entire life within the shadow of the Andes. My name is H\u00e9ctor Ra\u00fal Villanueva, and I have been working as a sommelier for forty-three years, the last twenty-two of them at a boutique winery called Vi\u00f1a del C\u00f3ndor, just outside the town of Luj\u00e1n de Cuyo. It is a small operation \u2014 we produce no more than 18,000 bottles per year \u2014 but we are known particularly for our estate Malbec, which has been recognized twice by the Decanter World Wine Awards.\n\nI came to wine through my father, who kept a cellar of no more than thirty bottles beneath our family home on Calle Patricias Mendocinas. He was not a professional, just a man who loved Bonarda and believed wine deserved patience. By the time I was sixteen, I could identify a wine's vintage within two years just by smell. Some people have told me this is related to my perfect pitch \u2014 I was tested at age nine by my primary school music teacher, Se\u00f1ora Elizalde, who confirmed I could name any note played on her upright piano without looking. I have always thought the two abilities are connected, some deep precision in how my brain catalogues sensation.\n\nI enrolled in the Centro de Estudios de la Vid y el Vino in Mendoza in 1972 and earned my certification in 1975. In those early years I worked at three different restaurants along Avenida Sarmiento before landing a position at Hotel Sheraton Mendoza, where I stayed for eleven years. It was during that period I began seriously collecting vinyl jazz records. I now have 847 records, stored in a climate-controlled room in my apartment on Calle Belgrano. My most prized possession is an original 1959 Blue Note pressing of John Coltrane's 'Giant Steps' \u2014 I paid the equivalent of $340 USD for it from a dealer in Buenos Aires in 1991.\n\nThe rock climbing came later, perhaps as a counterweight to the sedentary precision of wine work. I started at age 47, initially taking weekend courses at a club called Vertical Mendoza. I have since summited Cerro Plata four times, the most recent being in October 2021. My climbing partner for the last twelve years has been a retired schoolteacher named Osvaldo Pereyra, who is six years younger than me and considerably better at technical face climbing, though I have stronger endurance at altitude.\n\nI have been married once, to Elena Sof\u00eda Guti\u00e9rrez, from 1980 to 1997. We have one daughter, Valentina, who lives in Rosario and works as a civil engineer. She has no interest in wine whatsoever, which I have made my peace with. I drink a glass of wine every evening \u2014 typically something from the Uco Valley \u2014 and I play a record for at least thirty minutes before sleeping. Miles Davis, Bill Evans, and Thelonious Monk occupy the most-played section of my collection. At seventy-one, I have no intention of retiring.",
+      "main_qa": [
+        {
+          "q": "What is the name of the winery where H\u00e9ctor has worked for the last twenty-two years?",
+          "a": "Vi\u00f1a del C\u00f3ndor"
+        },
+        {
+          "q": "How many vinyl records does H\u00e9ctor own?",
+          "a": "847 records"
+        },
+        {
+          "q": "What rare vinyl record is H\u00e9ctor's most prized possession?",
+          "a": "An original 1959 Blue Note pressing of John Coltrane's 'Giant Steps'"
+        },
+        {
+          "q": "How old was H\u00e9ctor when he started rock climbing?",
+          "a": "47"
+        },
+        {
+          "q": "How much did H\u00e9ctor pay for his prized Coltrane record?",
+          "a": "$340 USD"
+        },
+        {
+          "q": "Who confirmed that H\u00e9ctor had perfect pitch when he was nine years old?",
+          "a": "Se\u00f1ora Elizalde"
+        }
+      ],
+      "probe2_qa": [
+        {
+          "q": "In what year was H\u00e9ctor Villanueva born?",
+          "a": "1953"
+        },
+        {
+          "q": "How many bottles per year does Vi\u00f1a del C\u00f3ndor produce?",
+          "a": "18,000 bottles"
+        },
+        {
+          "q": "What street does H\u00e9ctor currently live on in Mendoza?",
+          "a": "Calle Belgrano"
+        },
+        {
+          "q": "How many years did H\u00e9ctor work at Hotel Sheraton Mendoza?",
+          "a": "Eleven years"
+        },
+        {
+          "q": "What is the name of H\u00e9ctor's long-time climbing partner?",
+          "a": "Osvaldo Pereyra"
+        },
+        {
+          "q": "Where does H\u00e9ctor's daughter Valentina live and what is her profession?",
+          "a": "Rosario; civil engineer"
+        }
+      ],
+      "id": "V3_P_132",
+      "seed_hint": "a 71-year-old sommelier living in Mendoza, Argentina, hobbies include rock climbing and vinyl jazz collecting, perfect pitch",
+      "_overlap_warning": [],
+      "split": "held_out"
+    },
+    {
+      "backstory": "My name is Ciar\u00e1n Nowak, and I've spent most of my twenty-seven years trying to understand how small, precise things hold the world together. I was born in Pozna\u0144, Poland, in 1997, and adopted at age three by Maeve and Tomasz Nowak, who brought me to Galway, on the west coast of Ireland, where I've lived ever since. Maeve's family had been watchmakers going back two generations \u2014 her grandfather, S\u00e9amus Flannery, opened Flannery's Horology on Quay Street in 1961, and her own father kept it running until he passed the shop to Maeve in 2004. So when I came into the family, the smell of machine oil and the soft tick of calibrated movements was just part of what home meant.\n\nI completed a formal apprenticeship in horology through the British Horological Institute, finishing in 2018, and I've worked full-time at Flannery's ever since. The shop still occupies the same narrow building on Quay Street \u2014 barely four metres wide \u2014 and we specialise in mechanical restoration, mostly Swiss movements from the mid-twentieth century. My personal favourite to work on is the ETA 2824-2, which I think is one of the most elegant automatic calibres ever made. On a good week I'll pass through seven or eight of them.\n\nOutside the shop, I pour a lot of myself into two things. The first is dragon boat racing. I joined the Galway Dragon Boat Club in 2019, more or less on a dare from a colleague, and now I'm one of the stroke-side paddlers on our A-team, the Corrib Serpents. We competed in the 2023 European Dragon Boat Championships in Szeged, Hungary, and finished ninth in our category, which I was quietly proud of. Training happens three mornings a week at six o'clock on the River Corrib, which is brutal in November but does something good to your head.\n\nThe second thing is volunteer search-and-rescue. I've been a member of Galway Mountain Rescue since 2020, having completed the initial 120-hour training programme that winter. We're called out maybe thirty to forty times a year \u2014 mostly walkers who've come unstuck on the Twelve Bens or the Maamturks in Connemara. My role on the team is as a casualty carer, which means I hold a Level 3 first aid certificate that I renew every two years. The longest single operation I've been part of lasted nineteen hours and ended well, which is all I'll say about it.\n\nI live alone in a rented flat on Dominick Street, about a ten-minute walk from the shop. I don't own a car \u2014 I cycle everywhere, including the twelve-kilometre round trip out to the boathouse. I eat the same lunch almost every day, a toasted cheese and ham sandwich from Griffin's Bakery on Shop Street. People find that funny but I find it stabilising. Precision matters to me, in mechanisms and in routine.\n\nI've thought about my biological family in Poland occasionally, but I don't feel an urgent need to search. My parents are Maeve and Tomasz, and the shop on Quay Street is mine to carry forward someday. That feels like enough of a lineage.",
+      "main_qa": [
+        {
+          "q": "How old was Ciar\u00e1n when he was adopted?",
+          "a": "Three years old"
+        },
+        {
+          "q": "What is the name of the watch shop where Ciar\u00e1n works?",
+          "a": "Flannery's Horology"
+        },
+        {
+          "q": "On which street is the family watch shop located?",
+          "a": "Quay Street"
+        },
+        {
+          "q": "What dragon boat racing event did Ciar\u00e1n's team compete in during 2023?",
+          "a": "The European Dragon Boat Championships in Szeged, Hungary"
+        },
+        {
+          "q": "What is the name of Ciar\u00e1n's dragon boat team?",
+          "a": "The Corrib Serpents"
+        },
+        {
+          "q": "What watch calibre is Ciar\u00e1n's personal favourite to restore?",
+          "a": "The ETA 2824-2"
+        }
+      ],
+      "probe2_qa": [
+        {
+          "q": "In what year was Flannery's Horology originally opened?",
+          "a": "1961"
+        },
+        {
+          "q": "Who founded Flannery's Horology?",
+          "a": "S\u00e9amus Flannery"
+        },
+        {
+          "q": "What organisation did Ciar\u00e1n complete his formal watchmaking apprenticeship through?",
+          "a": "The British Horological Institute"
+        },
+        {
+          "q": "What search-and-rescue team is Ciar\u00e1n a volunteer member of?",
+          "a": "Galway Mountain Rescue"
+        },
+        {
+          "q": "Where does Ciar\u00e1n buy his lunch almost every day?",
+          "a": "Griffin's Bakery on Shop Street"
+        },
+        {
+          "q": "How long is Ciar\u00e1n's daily cycling round trip to the boathouse?",
+          "a": "Twelve kilometres"
+        }
+      ],
+      "id": "V3_P_133",
+      "seed_hint": "a 27-year-old third-generation watchmaker living in Galway, Ireland, hobbies include dragon boat racing and volunteer search-and-rescue, adopted at age 3",
+      "_overlap_warning": [],
+      "split": "held_out"
+    },
+    {
+      "backstory": "I'm Thierry Bonnet, and I've lived in Marseille my whole life \u2014 born here in 1982, grew up in the 13th arrondissement near the Ch\u00e2teau-Gombert neighborhood, and I never really felt the pull to leave. My father worked the docks at the Port of Marseille for thirty years, and my mother taught primary school in Saint-J\u00e9r\u00f4me. There's something about this city, the noise and the salt air and the chaos of it, that I couldn't imagine swapping for anywhere quieter.\n\nI've been driving metro trains on Line 2 for the RTM \u2014 R\u00e9gie des Transports Marseillais \u2014 since 2007. Seventeen years behind the cab, and I still find it meditative in a way most people wouldn't expect. The underground gives you a rhythm. My shift usually starts at 5h40 in the morning, running between Sainte-Marguerite\u2013Dromel and Bougainville. I know every tunnel vibration, every screech on the curve before La Timone station. A lot of my colleagues think I'm strange for actually enjoying it.\n\nI went vegan in 2016, after a longtime friend named C\u00e9line Aubert lent me a book \u2014 Jonathan Safran Foer's *Eating Animals* \u2014 over a dinner where I'd ordered a merguez sandwich. I finished the book in four days and that was essentially that. It wasn't an overnight transformation emotionally, but the decision was fast. Marseille isn't the easiest city for veganism, but I've adapted. I cook a lot at home now \u2014 I make a chickpea-and-harissa stew that I'm unreasonably proud of.\n\nMy serious hobby is amateur radio direction-finding, or ARDF, which some people call foxhunting. You use a directional antenna to triangulate hidden radio transmitters \u2014 it's part orienteering, part puzzle-solving, and it takes you out into the hills and the garrigue north of the city. I've been doing it since 2011, hold a Classe 1 amateur radio licence under the callsign F4RHK, and I compete a couple of times a year through a club based in Aix-en-Provence called Radio Club Pays d'Aix. My best individual finish was third place at a regional event held in the Luberon in October 2019.\n\nThe ARDF feeds naturally into my other main commitment, which is volunteer search-and-rescue. I joined the local unit of the GRIMP \u2014 Groupe de Reconnaissance et d'Intervention en Milieu P\u00e9rilleux \u2014 in 2014, and we do rope rescue and wilderness search operations, often in the Calanques massif just south of the city. The radio skills transfer directly: when someone is lost in the Calanques and has a phone or a radio, I can usually help vector in the search teams faster than anyone else on the unit. We were called out eleven times in 2023 alone. It's exhausting and sometimes heartbreaking work, but I can't imagine stopping.\n\nI live in a third-floor flat on Rue Francis de Pressens\u00e9 in the 5th arrondissement \u2014 62 square meters, two bedrooms, one of which I've converted into a radio shack. I share it with a cat named Voltaire, who is indifferent to my hobbies. On days off I cycle down to the Vieux-Port for coffee, always black, always at the same zinc counter at a caf\u00e9 called Le Belge, which has not updated its decor since approximately 1994, and that is precisely why I love it.",
+      "main_qa": [
+        {
+          "q": "What metro line does Thierry drive for the RTM?",
+          "a": "Line 2"
+        },
+        {
+          "q": "What year did Thierry become vegan?",
+          "a": "2016"
+        },
+        {
+          "q": "What is Thierry's amateur radio callsign?",
+          "a": "F4RHK"
+        },
+        {
+          "q": "What book prompted Thierry to go vegan?",
+          "a": "Eating Animals"
+        },
+        {
+          "q": "What was Thierry's best competitive finish in ARDF?",
+          "a": "Third place"
+        },
+        {
+          "q": "Which friend lent Thierry the book that changed his diet?",
+          "a": "C\u00e9line Aubert"
+        }
+      ],
+      "probe2_qa": [
+        {
+          "q": "What year did Thierry join the GRIMP volunteer unit?",
+          "a": "2014"
+        },
+        {
+          "q": "In which arrondissement does Thierry currently live?",
+          "a": "5th arrondissement"
+        },
+        {
+          "q": "What is the name of the caf\u00e9 where Thierry drinks his morning coffee on days off?",
+          "a": "Le Belge"
+        },
+        {
+          "q": "How many times was Thierry's SAR unit called out in 2023?",
+          "a": "Eleven times"
+        },
+        {
+          "q": "Where is the ARDF club Thierry competes through based?",
+          "a": "Aix-en-Provence"
+        },
+        {
+          "q": "What year did Thierry start working as a metro conductor for the RTM?",
+          "a": "2007"
+        }
+      ],
+      "id": "V3_P_134",
+      "seed_hint": "a 42-year-old subway conductor living in Marseille, France, hobbies include amateur radio direction-finding and volunteer search-and-rescue, vegan since 2016",
+      "_overlap_warning": [],
+      "split": "held_out"
+    },
+    {
+      "backstory": "I was born in 1966 in Akron, Ohio, the second of four children in a family that ran a small printing shop on Howard Street. My father, Gerald, had beautiful handwriting that he used to letter menus and signage for local restaurants, and watching him work at the compositing table is my earliest memory of falling in love with letterforms. I started studying calligraphy seriously at age nineteen when I enrolled in a weekend workshop at the Cleveland Institute of Art under an instructor named Dorothea Hess, who had trained under Hermann Zapf in Frankfurt. Dorothea was demanding and funny and she changed my life. By 1991 I had moved to New York, and I settled in the Carroll Gardens neighborhood of Brooklyn, where I still live today in a third-floor apartment on Kane Street that I have rented for the past twenty-two years.\n\nI make my living doing commissioned calligraphy \u2014 wedding invitations, diplomas, hand-lettered ketuboth, the occasional corporate piece. My best-known project, at least locally, was hand-lettering 430 envelopes for a fundraiser gala at the Brooklyn Academy of Music in 2018. I use primarily Sumi ink and a Brause 66EF nib for most formal work, though I keep a collection of about sixty nibs from four different manufacturers on the shelf above my drafting table.\n\nAstronomy crept up on me in my early forties. I bought a Celestron NexStar 8SE telescope in 2009 after a particularly clear November night when I could see Jupiter and three of its moons from my roof with nothing but a borrowed pair of binoculars. I'm a member of the Amateur Astronomers Association of New York and I try to get out to the club's dark-sky site in Cherry Springs State Park in Pennsylvania at least twice a year.\n\nThe yo-yo is a stranger story. My nephew Dominic showed me a 1A freestyle video at Thanksgiving in 2015, and within six months I was competing at the New York State Yo-Yo Contest. I've placed third twice in the 4A division \u2014 that's the offstring style, where the yo-yo isn't attached to the string \u2014 which I find suits my calligrapher's instinct for large, sweeping gestures. I practice for about forty-five minutes most evenings before dinner.\n\nAmateur radio is the newest obsession. I got my Technician license in March 2021 after studying through the winter lockdown months, and I upgraded to General class the following October. My call sign is KD2VTX. I built a simple wire dipole antenna that runs along the fire escape and I mostly work the 40-meter band in the evenings, though I've been learning Morse code with the goal of making contacts on CW by the end of this year. There's something that connects all of these things for me \u2014 the patience required, the physical precision, the way a small variation in pressure or angle changes everything. My drafting table, my telescope, my yo-yo case, and my radio all sit within about twelve feet of each other in the same room, which my partner Renata calls 'the museum of obsessive men,' even though she has her own shelf of thirty-seven cacti along the window.",
+      "main_qa": [
+        {
+          "q": "What is the narrator's amateur radio call sign?",
+          "a": "KD2VTX"
+        },
+        {
+          "q": "On which street does the narrator currently live in Brooklyn?",
+          "a": "Kane Street"
+        },
+        {
+          "q": "Who was the calligraphy instructor the narrator studied under as a young adult?",
+          "a": "Dorothea Hess"
+        },
+        {
+          "q": "How many envelopes did the narrator hand-letter for the Brooklyn Academy of Music gala?",
+          "a": "430"
+        },
+        {
+          "q": "In what year did the narrator buy a Celestron NexStar 8SE telescope?",
+          "a": "2009"
+        },
+        {
+          "q": "Which yo-yo division has the narrator placed third in twice?",
+          "a": "4A division"
+        }
+      ],
+      "probe2_qa": [
+        {
+          "q": "In what city was the narrator born?",
+          "a": "Akron, Ohio"
+        },
+        {
+          "q": "What city did the narrator move to in 1991?",
+          "a": "New York"
+        },
+        {
+          "q": "What type of ink does the narrator primarily use for formal calligraphy work?",
+          "a": "Sumi ink"
+        },
+        {
+          "q": "What is the name of the dark-sky site in Pennsylvania the narrator visits for stargazing?",
+          "a": "Cherry Springs State Park"
+        },
+        {
+          "q": "What is the name of the narrator's partner?",
+          "a": "Renata"
+        },
+        {
+          "q": "In what month and year did the narrator obtain their Technician radio license?",
+          "a": "March 2021"
+        }
+      ],
+      "id": "V3_P_135",
+      "seed_hint": "a 58-year-old calligrapher living in Brooklyn, New York, hobbies include amateur astronomy and competitive yo-yo, amateur radio call sign",
+      "_overlap_warning": [],
+      "split": "held_out"
+    },
+    {
+      "backstory": "I was born in Stavanger in 1982, the second of three children in a family that ran a small fishing supply shop near the harbour. My father, Kjell, had no particular interest in wine, but my mother Ingrid used to buy a bottle of French table wine every Friday evening \u2014 a ritual that, looking back, planted something in me I didn't recognise until much later. We moved to Trondheim when I was fourteen, and I've lived here ever since, currently in a two-bedroom flat on Nedre Elvehavn, two blocks from the river.\n\nI was diagnosed with type 1 diabetes at age nine, in the spring of 1991. It was a disorienting few months \u2014 injections, glucose tablets in every pocket, learning to read my own body like a set of instruments. My endocrinologist, Dr. Hanne Solberg at Stavanger University Hospital, was the first adult who ever really explained a complex system to me in plain language, and I think that experience built in me a deep appetite for understanding how things work. That appetite eventually led me to wine.\n\nI completed my WSET Diploma in 2009 through a programme coordinated out of Oslo, and passed the Court of Master Sommeliers Advanced exam in Copenhagen in 2014. I work at a restaurant called Bryggerikjelleren in central Trondheim, where I've managed the wine list since 2016. We have around 340 labels, and I've pushed heavily toward natural and low-intervention producers from the Jura and the Rh\u00f4ne Valley, which remain my two favourite regions. If I'm opening something at home on a Wednesday evening for no reason, it's almost always a Trousseau from Domaine de la Pinte \u2014 I bought a six-bottle case in 2021 and rationed myself carefully.\n\nThe dragon boat racing started by accident. In the summer of 2017, a colleague at the restaurant signed up a team for the Trondheim Dragon Boat Festival and needed a tenth paddler the morning of the event. I showed up in jeans, borrowed a life jacket, and was completely hooked. I've paddled with Nidaros Dragon Boat Club ever since, training on the Nidelva river every Tuesday and Thursday from April through September. Managing my blood sugar during two-hour paddling sessions took about a full season to figure out \u2014 I run slightly higher targets on training days and keep a Dextro Energy roll in my dry bag at all times.\n\nThe competitive yo-yo is harder to explain. I discovered it watching a YouTube video in February 2019 during a long overnight shift before a big tasting event. Within three weeks I had ordered a One Drop Benchmark H from a shop in Portland, Oregon, and within a year I was entering the Nordic Yo-Yo Contest, held annually in Stockholm. I placed 11th in the 1A freestyle division in 2022, which I consider a genuinely respectable result given that most competitors are fifteen years younger than me. I practice for about twenty minutes most mornings before breakfast, in the kitchen, which my downstairs neighbour has apparently complained about exactly once.\n\nI'm 42 now, unmarried, and I own a tabby cat named Chablis. I keep a paper tasting notebook \u2014 volume seven as of last March \u2014 and I haven't owned a car since 2011.",
+      "main_qa": [
+        {
+          "q": "What restaurant does this person manage the wine list for?",
+          "a": "Bryggerikjelleren"
+        },
+        {
+          "q": "At what age was this person diagnosed with type 1 diabetes?",
+          "a": "age nine"
+        },
+        {
+          "q": "What year did they pass the Court of Master Sommeliers Advanced exam?",
+          "a": "2014"
+        },
+        {
+          "q": "What is the name of the dragon boat club they paddle with?",
+          "a": "Nidaros Dragon Boat Club"
+        },
+        {
+          "q": "Which specific wine do they most often open at home on a casual evening?",
+          "a": "Trousseau from Domaine de la Pinte"
+        },
+        {
+          "q": "What placement did they achieve in the Nordic Yo-Yo Contest 1A freestyle division in 2022?",
+          "a": "11th"
+        }
+      ],
+      "probe2_qa": [
+        {
+          "q": "What city were they born in?",
+          "a": "Stavanger"
+        },
+        {
+          "q": "What is the name of their cat?",
+          "a": "Chablis"
+        },
+        {
+          "q": "How many labels are on the wine list at their restaurant?",
+          "a": "around 340"
+        },
+        {
+          "q": "What year did they complete their WSET Diploma?",
+          "a": "2009"
+        },
+        {
+          "q": "From which city did they order their yo-yo?",
+          "a": "Portland, Oregon"
+        },
+        {
+          "q": "What river do they train on for dragon boat racing?",
+          "a": "Nidelva"
+        }
+      ],
+      "id": "V3_P_136",
+      "seed_hint": "a 42-year-old sommelier living in Trondheim, Norway, hobbies include dragon boat racing and competitive yo-yo, type 1 diabetes",
+      "_overlap_warning": [],
+      "split": "held_out"
+    },
+    {
+      "backstory": "I was born in 1959 in Watsonville, California, about twelve miles south of where I live now in Santa Cruz. My grandfather, Enzo Ferretti, came over from Brescia, Italy in 1921 and set up a small watch repair shop on Pacific Avenue. He passed the craft to my father, Raymond, who expanded the shop in 1967, adding custom engraving and a small inventory of estate pieces. I grew up, however, not above the shop but on my family's strawberry farm on Calabrese Road outside Watsonville \u2014 about forty acres of it. We weren't wealthy by any measure, but we weren't struggling either. I spent my summers picking alongside the seasonal workers, learning Spanish before I ever learned Italian, and my winters watching my father disappear into his workshop on weekends, tweaking escapements and replacing mainsprings by lamplight.\n\nI took over Ferretti Watch Works in 1988, when my father's arthritis made the fine work impossible for him. By then I had already apprenticed under a German-trained horologist named Klaus Brandt in Zurich for two years \u2014 1984 to 1986 \u2014 and that time fundamentally changed how I understood the relationship between a mechanism and the person wearing it. Klaus was exacting to the point of cruelty sometimes, but I still use the loupe he gave me when I passed his final evaluation. It is a 10x Bausch & Lomb, and it sits in my left breast pocket every single working day.\n\nThe shop is still on Pacific Avenue, number 312, tucked between a used bookstore and a tea house. I employ one part-time assistant, a young woman named Daniela Ruiz, who reminds me honestly of myself at twenty-four \u2014 more patient than she ought to be, more curious than she lets on. We specialize in vintage Swiss movements, particularly Valjoux calibers from the 1940s and 1950s, and I refuse to work on quartz. That decision cost me business in the 1990s but I have never regretted it.\n\nOutside the shop I have two serious passions. The first is swing dancing. I started going to Lindy Hop nights at the Cocoanut Grove Ballroom in Santa Cruz in 1993 after my divorce from my first wife, Miriam, and the dancing saved me from a very dark period. I go every Thursday without fail and have competed twice at the Frankie Manning Memorial Camp in New York, though I have never placed. My partner for the last seven years has been a retired librarian named Gloria Osei.\n\nThe second passion is vinyl. I own roughly 840 records, almost all jazz, stored in pine shelving I built myself in the back bedroom. My most prized possession is a 1957 Blue Note pressing of Sonny Rollins's 'Saxophone Colossus' \u2014 original Van Gelder Studio pressing, in near-mint condition, which I found at an estate sale in Capitola in 2011 for eighteen dollars. I still cannot believe that happened. I play records every evening after dinner and I will not stream music under any circumstances. Some things should take effort to hear.",
+      "main_qa": [
+        {
+          "q": "What street is Ferretti Watch Works located on?",
+          "a": "Pacific Avenue"
+        },
+        {
+          "q": "Where did the persona apprentice before taking over the family shop?",
+          "a": "Zurich"
+        },
+        {
+          "q": "What kind of farm did the persona grow up on?",
+          "a": "Strawberry farm"
+        },
+        {
+          "q": "What year did the persona take over Ferretti Watch Works?",
+          "a": "1988"
+        },
+        {
+          "q": "Who is the persona's swing dancing partner?",
+          "a": "Gloria Osei"
+        },
+        {
+          "q": "How much did the persona pay for the Sonny Rollins pressing at the Capitola estate sale?",
+          "a": "Eighteen dollars"
+        }
+      ],
+      "probe2_qa": [
+        {
+          "q": "What city was the persona born in?",
+          "a": "Watsonville, California"
+        },
+        {
+          "q": "What is the name of the part-time assistant at the shop?",
+          "a": "Daniela Ruiz"
+        },
+        {
+          "q": "What magnification is the loupe the persona received from Klaus Brandt?",
+          "a": "10x"
+        },
+        {
+          "q": "In what year did the persona first start attending swing dancing nights?",
+          "a": "1993"
+        },
+        {
+          "q": "Approximately how many vinyl records does the persona own?",
+          "a": "Roughly 840"
+        },
+        {
+          "q": "What year did Enzo Ferretti arrive from Italy?",
+          "a": "1921"
+        }
+      ],
+      "id": "V3_P_137",
+      "seed_hint": "a 65-year-old third-generation watchmaker living in Santa Cruz, California, hobbies include swing dancing and vinyl jazz collecting, raised on a farm",
+      "_overlap_warning": [],
+      "split": "held_out"
+    },
+    {
+      "backstory": "I was born on March 14, 1997, in Gyumri, Armenia, the second-largest city in the country, in a neighborhood called Kumayri, where my father, Arsen, ran a small auto-repair garage and my mother, Narine, taught mathematics at School No. 9. We were never poor exactly, but when I was sixteen, the garage had three consecutive bad winters, and Arsen started talking seriously about Georgia. By April 2014, we had packed everything into a rented Hyundai truck and crossed the border at Bagratashen. I was seventeen and furious about it.\n\nWe settled in Tbilisi's Didube district, which is not glamorous \u2014 it's mostly bus terminals and market stalls \u2014 but rent was cheap enough that my father could save. I enrolled in a Georgian-language course at the Tbilisi Humanitarian Teaching University on Kostava Street, and by eighteen I could argue with shopkeepers without embarrassing myself. I never finished a formal degree. What happened instead was a steel workshop.\n\nIn 2016, a neighbor named Giorgi Beridze ran a small metalworking shop two streets from our apartment. He was 58, half-deaf from decades of hammering, and he needed someone to sweep and carry. I started doing that. Within eight months I was at the anvil. Giorgi had no formal training in Damascus steel \u2014 he had learned from a Turkish craftsman named Murat he'd met at a trade fair in Batumi in 2003 \u2014 and he passed that same informal, slightly mystical knowledge to me. By 2019 I had my own bench in his workshop and was selling knives under the name \"Ararat Forge,\" which I registered officially on February 3, 2020.\n\nA Damascus knife takes me between 14 and 22 hours depending on the fold count \u2014 I typically work with 256-layer billets. My best-selling blade is a 19-centimeter chef's knife with a walnut burl handle that I price at 480 Georgian lari. I ship mostly to buyers in Germany and the Netherlands via a small Etsy shop, though I hate the platform's fee structure.\n\nThe paleontology hobby started accidentally. In the summer of 2021, I took a bus to Mtskheta \u2014 only 20 kilometers from Tbilisi \u2014 and wandered into a small natural history room attached to the Jvari Monastery visitor center. A docent showed me a nummulite fossil embedded in a limestone slab, explained it was 40 million years old, and something in my brain rearranged itself. Now I spend most free Saturdays in the Kartli Plain, sifting through exposed limestone outcrops. I own 43 confirmed fossil specimens, including a partial ammonite I found in November 2022 that a geologist friend, Tamara, tentatively identified as Jurassic-era Harpoceras.\n\nThe jazz records began in 2018 when I found a beaten copy of Miles Davis's \"Kind of Blue\" on Columbia Records \u2014 the 1959 original pressing, though not the first pressing \u2014 at a flea market in Dry Bridge Market for 12 lari. I now own 91 vinyl records. My most prized is a 1961 pressing of John Coltrane's \"A Love Supreme\" \u2014 actually I got the dates confused once; \"A Love Supreme\" is 1964, and mine is a 1965 Blue Note reissue. I have a Soviet-era Vega 109 turntable I bought for 35 lari and repaired myself.\n\nI still carry an Armenian passport. I have Georgian residency but not citizenship. Arsen finally opened a new garage in Tbilisi in 2022, so at least that particular circle has closed.",
+      "main_qa": [
+        {
+          "q": "What is the name of the forge business the narrator officially registered?",
+          "a": "Ararat Forge"
+        },
+        {
+          "q": "How many layers does the narrator typically use in a Damascus steel billet?",
+          "a": "256 layers"
+        },
+        {
+          "q": "What was the first jazz vinyl record the narrator purchased, and where did they buy it?",
+          "a": "Miles Davis's 'Kind of Blue,' at Dry Bridge Market"
+        },
+        {
+          "q": "Who taught Giorgi Beridze the craft of Damascus steel?",
+          "a": "A Turkish craftsman named Murat"
+        },
+        {
+          "q": "What is the price of the narrator's best-selling chef's knife?",
+          "a": "480 Georgian lari"
+        },
+        {
+          "q": "In what year did the narrator's family move from Gyumri to Tbilisi?",
+          "a": "2014"
+        }
+      ],
+      "probe2_qa": [
+        {
+          "q": "What district of Tbilisi did the narrator's family first settle in?",
+          "a": "Didube"
+        },
+        {
+          "q": "How many vinyl records does the narrator own in total?",
+          "a": "91"
+        },
+        {
+          "q": "What fossil did the narrator find in November 2022, and what era was it tentatively identified as?",
+          "a": "A partial ammonite, tentatively identified as Jurassic-era Harpoceras"
+        },
+        {
+          "q": "How old was Giorgi Beridze when the narrator began working for him?",
+          "a": "58"
+        },
+        {
+          "q": "What turntable does the narrator use, and how much did they pay for it?",
+          "a": "A Soviet-era Vega 109, bought for 35 lari"
+        },
+        {
+          "q": "What subject did the narrator's mother Narine teach?",
+          "a": "Mathematics"
+        }
+      ],
+      "id": "V3_P_138",
+      "seed_hint": "a 27-year-old blacksmith specializing in damascus knives living in Tbilisi, Georgia, hobbies include amateur paleontology and vinyl jazz collecting, first-generation immigrant",
+      "_overlap_warning": [],
+      "split": "held_out"
+    },
+    {
+      "backstory": "I was born in Ghent in 1985, but I've lived in Antwerp since 2009, when I took over as executive chef at a brasserie called De Koperen Ketel on Mechelsesteenweg. It's a mid-sized place \u2014 about 60 covers \u2014 and we've held a Bib Gourmand from the Michelin Guide since 2017, which I'm more proud of than any starred kitchen I've worked in before. Before landing here, I spent three years cooking in Edinburgh, Scotland, at a restaurant on Leith Walk called The Saltire Table. That stretch, from 2006 to 2009, changed me in two fundamental ways: I learned to cook properly with game and offal, and I fell completely in love with highland bagpipes.\n\nA colleague there, a sous chef named Alasdair Munro, played in a pipe band on weekends and dragged me along to practice one Thursday evening in November 2007. I was 22 years old and absolutely hooked within the first hour. I now practice three mornings a week, usually starting at 6 a.m. before the kitchen prep begins, and I play a set of MacCallum pipes I bought secondhand in 2012 for \u20ac1,400. My neighbors in the flat below me on Kloosterstraat have lodged exactly four formal noise complaints, all of which I consider badges of honor.\n\nThe competitive whistling started much later and more accidentally. In 2019, a friend entered me as a joke into the Benelux Whistling Championship held in Li\u00e8ge. I placed fifth out of 34 competitors in the melodic category, which shocked everyone, including me. I've competed three times since, and my personal best is second place, which I achieved in 2022. I train by whistling through my morning commute on the tram, which is a 14-minute ride from Kloosterstraat to the brasserie. People stare. I don't mind.\n\nI was diagnosed with celiac disease in March 2014 after about two years of increasingly unpleasant symptoms that I'd been ignoring and attributing to kitchen stress. The diagnosis was delivered by a gastroenterologist named Dr. Veerle Claes at the UZA hospital in Antwerp. It was, in its way, a professional crisis \u2014 I was a chef who could no longer safely taste bread, pasta, or anything with wheat without getting sick. I spent about four months reworking roughly 40 percent of our menu to include genuinely good gluten-free alternatives, not afterthoughts. We now use a rice-and-buckwheat pasta from a supplier in Leuven, and our house bread is made with a sorghum blend I developed myself over about 30 trial batches.\n\nI am 39 now, and the thing people find strangest about me is probably that I can explain the acoustics of a bagpipe chanter and then pivot immediately to explaining the Maillard reaction in browning gluten-free flour. These feel like the same kind of problem to me \u2014 both are about understanding a system deeply enough to make it produce something beautiful. My staff at De Koperen Ketel \u2014 there are eleven of us in the kitchen \u2014 have mostly accepted the bagpipe warm-ups as a fact of life. The newest commis, a 19-year-old named Bram, asked me last week if he could try playing. That felt like progress.",
+      "main_qa": [
+        {
+          "q": "What is the name of the brasserie where the chef works as executive chef?",
+          "a": "De Koperen Ketel"
+        },
+        {
+          "q": "In what year was the chef diagnosed with celiac disease?",
+          "a": "March 2014"
+        },
+        {
+          "q": "What was the chef's placement at the 2022 Benelux Whistling Championship?",
+          "a": "Second place"
+        },
+        {
+          "q": "How much did the chef pay for their MacCallum bagpipes?",
+          "a": "\u20ac1,400"
+        },
+        {
+          "q": "Who introduced the chef to highland bagpipes?",
+          "a": "Alasdair Munro"
+        },
+        {
+          "q": "How long is the chef's morning tram commute to the brasserie?",
+          "a": "14 minutes"
+        }
+      ],
+      "probe2_qa": [
+        {
+          "q": "In which city did the chef live before moving to Antwerp?",
+          "a": "Ghent"
+        },
+        {
+          "q": "What culinary recognition has De Koperen Ketel held since 2017?",
+          "a": "Bib Gourmand"
+        },
+        {
+          "q": "On which street is the chef's flat located?",
+          "a": "Kloosterstraat"
+        },
+        {
+          "q": "How many competitors were in the melodic category at the 2019 Benelux Whistling Championship?",
+          "a": "34"
+        },
+        {
+          "q": "What grain blend did the chef develop for the brasserie's house bread?",
+          "a": "Sorghum blend"
+        },
+        {
+          "q": "How many people work in the kitchen at De Koperen Ketel?",
+          "a": "Eleven"
+        }
+      ],
+      "id": "V3_P_139",
+      "seed_hint": "a 39-year-old executive chef living in Antwerp, Belgium, hobbies include highland bagpipes and competitive whistling, celiac disease",
+      "_overlap_warning": [],
+      "split": "held_out"
+    },
+    {
+      "backstory": "I was born in Christchurch in 1959 and spent most of my working life with Genesis Energy, where I joined as a junior engineer in 1983 and stayed for thirty-one years before retiring in 2014. The bulk of my career was focused on the Wairakei Geothermal Power Station near Taup\u014d, which isn't strictly nuclear but gave me the foundation for the reactor safety consulting work I picked up in the 1990s with the International Atomic Energy Agency out of Vienna. I did three stints there between 1994 and 2007, peer-reviewing reactor designs for clients in South Korea and the Czech Republic. My wife Margaret and I moved permanently to Auckland \u2014 specifically to a house in Titirangi \u2014 in 2009, when our daughter Rosalind finished secondary school and we decided the commute to whatever consultancy work remained could be managed from the city rather than Taup\u014d.\n\nTitirangi suits me. The section backs onto Wait\u0101kere Ranges Regional Park, and the bush acts as a natural screen that reduces the RF noise I'd otherwise get from the suburb. I got my first amateur radio licence in 1991, a Class B restricted, but upgraded to the full General licence in 1996 and have been operating under the call sign ZL1KRF ever since. I run a Yaesu FT-991A transceiver paired with a homemade fan dipole strung between two kauri trees at the back of the property. Most evenings I check into the New Zealand Amateur Radio Transmitters net around 7.050 MHz on the 40-metre band. I've made contacts as far as Norway and Patagonia from that setup, which still astonishes me.\n\nThe vinyl collection started much later than the radio hobby \u2014 I bought my first jazz record, a 1958 Blue Note pressing of Sonny Rollins' *A Night at the Village Vanguard*, at a market stall in Wellington in 1997. I didn't even own a turntable at the time. I went home, bought a secondhand Thorens TD-160, and the whole thing spiralled from there. I now have somewhere between 340 and 350 LPs, almost entirely jazz from the 1955\u20131975 period. My most treasured single item is a mono original of Miles Davis's *Kind of Blue* on Columbia, which I found at an estate sale in Devonport in 2018 for forty dollars \u2014 an absolute steal and the sort of luck that doesn't repeat. I play them through a rebuilt Quad 33 preamp and a pair of Spendor BC1 speakers that Margaret pretends to tolerate.\n\nRetirement itself took some adjustment. For the first two years I volunteered with the Auckland branch of the Institute of Professional Engineers, reviewing submissions for resource consent applications that involved electrical infrastructure. I stopped that in 2016 after deciding it felt too much like unpaid work. These days I'm content with the radio, the records, growing tomatoes in the back garden, and occasionally writing for a small quarterly newsletter called *The Reactant*, which goes out to about sixty former IAEA colleagues worldwide. Margaret teaches watercolour at a community centre in Glen Eden two mornings a week, which gives us both the solitude we need to be genuinely glad to see each other by lunchtime.",
+      "main_qa": [
+        {
+          "q": "What is the amateur radio call sign used by this person?",
+          "a": "ZL1KRF"
+        },
+        {
+          "q": "In what year did they retire?",
+          "a": "2014"
+        },
+        {
+          "q": "What transceiver do they currently operate?",
+          "a": "Yaesu FT-991A"
+        },
+        {
+          "q": "What was the first jazz vinyl record they ever purchased?",
+          "a": "Sonny Rollins' A Night at the Village Vanguard"
+        },
+        {
+          "q": "Where in Auckland do they live?",
+          "a": "Titirangi"
+        },
+        {
+          "q": "How much did they pay for the mono original of Miles Davis's Kind of Blue?",
+          "a": "Forty dollars"
+        }
+      ],
+      "probe2_qa": [
+        {
+          "q": "Which organisation did they do reactor safety consulting work for in the 1990s and 2000s?",
+          "a": "International Atomic Energy Agency"
+        },
+        {
+          "q": "In what year did they first obtain an amateur radio licence?",
+          "a": "1991"
+        },
+        {
+          "q": "What frequency band do they most commonly check into the NZART net on?",
+          "a": "40-metre band"
+        },
+        {
+          "q": "Where did they find their prized Miles Davis mono original?",
+          "a": "An estate sale in Devonport"
+        },
+        {
+          "q": "What is the name of the quarterly newsletter they write for?",
+          "a": "The Reactant"
+        },
+        {
+          "q": "What does Margaret do two mornings a week?",
+          "a": "Teaches watercolour at a community centre in Glen Eden"
+        }
+      ],
+      "id": "V3_P_140",
+      "seed_hint": "a 65-year-old retired nuclear engineer living in Auckland, New Zealand, hobbies include amateur radio and vinyl jazz collecting, amateur radio call sign",
+      "_overlap_warning": [],
+      "split": "held_out"
+    },
+    {
+      "backstory": "I grew up in Boise, Idaho, the second of four kids in a family that was obsessed with anything that involved signals and communication. My dad was a ham radio operator, and by the time I was twelve he had me sitting beside him on Saturday mornings listening to contacts from all over the Pacific. That early exposure stuck with me harder than anything I ever studied in school. When I graduated from Boise High School in 2015, I enrolled at Utah Valley University in Orem and pursued an aviation science degree, graduating in May 2019. During my junior year I passed my FAA Air Traffic Control specialist exam on the first attempt, which I was pretty proud of. I moved to Salt Lake City in August 2019 to start my position at Salt Lake TRACON, the Terminal Radar Approach Control facility that handles aircraft arriving and departing from Salt Lake City International Airport. I've been there almost six years now, and I still feel a particular focus settle over me the moment I put on the headset.\n\nI live in a two-bedroom apartment on 900 East in the Sugar House neighborhood. The second bedroom is basically a shack \u2014 that's ham radio slang for your operating room. My FCC-issued call sign is KD9VMR, which I earned after passing my Technician and General class exams in the same weekend in February 2021. I mostly operate on the 40-meter band for long-distance contacts and join a weekly net on 146.520 MHz, which is the national simplex calling frequency. I've made contacts as far as New Zealand and logged over 1,400 confirmed QSLs so far. Last October I drove to Moab for a portable activation in Arches National Park as part of the Parks on the Air program and worked 47 stations in a single afternoon, which is still my personal record.\n\nThe other thing that consumes my off hours is competitive crossword construction. I've had three puzzles accepted by the American Crossword Puzzle Tournament editor, and my first published puzzle ran in their 2023 tournament packet. I typically spend about 14 hours constructing a single 15x15 themeless grid from scratch, which surprises people who assume it's a casual hobby. I use a software tool called Crossword Compiler to check fill quality, though I always do the initial seed entries by hand on graph paper. My longest accepted answer to date is BIOLUMINESCENCE, which crossed two theme entries in a puzzle I submitted in the spring of 2024.\n\nWhen I'm not at the facility or in my radio shack, I run the trails along the Bonneville Shoreline Trail above the city, usually three times a week. I'm 27 years old, which means I'm one of the younger full-performance-level controllers at our facility. My supervisor, a veteran named Doug Reinholt who has been at Salt Lake TRACON since 1998, told me last year that I had the fastest progression from developmental to certified professional controller he had seen in about a decade. That meant more to me than I expected it to. I drink too much coffee \u2014 about four cups a day \u2014 and I keep a logbook next to my radio that I write in by hand because some habits from my dad just make more sense than apps.",
+      "main_qa": [
+        {
+          "q": "What is the amateur radio call sign assigned to this person?",
+          "a": "KD9VMR"
+        },
+        {
+          "q": "Where did this person attend university?",
+          "a": "Utah Valley University in Orem"
+        },
+        {
+          "q": "What is the name of the air traffic control facility where they work?",
+          "a": "Salt Lake TRACON"
+        },
+        {
+          "q": "How many confirmed QSL contacts have they logged so far?",
+          "a": "over 1,400"
+        },
+        {
+          "q": "What is the longest answer that was accepted in one of their crossword puzzles?",
+          "a": "BIOLUMINESCENCE"
+        },
+        {
+          "q": "In what month and year did they earn their ham radio license?",
+          "a": "February 2021"
+        }
+      ],
+      "probe2_qa": [
+        {
+          "q": "What neighborhood in Salt Lake City does this person live in?",
+          "a": "Sugar House"
+        },
+        {
+          "q": "How many stations did they work during their Parks on the Air activation in Arches National Park?",
+          "a": "47 stations"
+        },
+        {
+          "q": "What is the name of the software tool they use to check crossword fill quality?",
+          "a": "Crossword Compiler"
+        },
+        {
+          "q": "What is the name of their supervisor at Salt Lake TRACON?",
+          "a": "Doug Reinholt"
+        },
+        {
+          "q": "How many hours does it typically take them to construct a single 15x15 themeless grid?",
+          "a": "about 14 hours"
+        },
+        {
+          "q": "What frequency do they join for a weekly ham radio net?",
+          "a": "146.520 MHz"
+        }
+      ],
+      "id": "V3_P_141",
+      "seed_hint": "a 27-year-old air traffic controller living in Salt Lake City, Utah, hobbies include amateur radio and competitive crossword constructing, amateur radio call sign",
+      "_overlap_warning": [],
+      "split": "held_out"
+    },
+    {
+      "backstory": "I was born in Seoul, South Korea, in 1982, and adopted at age three by the Verheyden family \u2014 Dirk and Mieke Verheyden \u2014 who raised me in a narrow townhouse on Kloosterstraat in Antwerp. I've never felt anything other than Belgian, though I did make one trip back to Seoul in 2019, more out of curiosity than longing. My adoptive parents ran a modest butcher's shop called Slagerij Verheyden on the Grote Markt in nearby Mechelen, and it was in that sawdust-floored back room where I first understood that meat was something you could respect, not just consume. By the time I was fourteen, I was trimming pork shoulders before school.\n\nI trained at Ter Groene Poorte, the culinary institute in Bruges, graduating in 2003. My first serious position was as a commis chef at a two-Michelin-star restaurant called De Zilte in Antwerp, where I spent four brutal but formative years under chef Viki Geunes. In 2011, I opened my own place \u2014 a 34-seat restaurant called Koperwerk \u2014 on Leopoldstraat in Antwerp's Zurenborg district. Koperwerk earned its first Michelin star in 2016, which I genuinely did not expect. The menu rotates every six weeks and is built almost entirely around Belgian and Dutch producers. My signature dish, which has been on the menu since opening, is a slow-braised ox cheek served over smoked barley with a juniper reduction.\n\nOutside the kitchen, I lead a life that most of my staff find baffling. I've been playing highland bagpipes since I was twenty-six, after stumbling into a session by the Antwerp Caledonian Pipe Band at a street festival in 2008. I practice three mornings a week on the roof terrace of my apartment on Cogels-Osylei, and the neighbors on the left have lodged exactly four noise complaints with the city since 2019. I play a set of Kintail pipes I ordered from a maker in Inverness and had shipped over in 2014. They cost me \u20ac1,840, which felt like an obscene amount at the time.\n\nThe taxidermy is a more recent obsession \u2014 I started in 2017 after attending a workshop in Ghent run by a woman named Lotte Declercq who specialized in small mammals. I now have eleven mounted specimens in my apartment, mostly birds and one red squirrel. I source everything ethically \u2014 roadkill or animals that died of natural causes. I use a small Victorian display cabinet I found at a flea market in Tongeren to house the better pieces. The work requires the same patience as fabricating a sauce, which is probably why it suits me. I once spent eleven hours mounting a barn owl and felt completely at peace the entire time.",
+      "main_qa": [
+        {
+          "q": "What is the name of the restaurant the chef owns?",
+          "a": "Koperwerk"
+        },
+        {
+          "q": "In what year was the chef born?",
+          "a": "1982"
+        },
+        {
+          "q": "At what age was the chef adopted?",
+          "a": "three"
+        },
+        {
+          "q": "What culinary institute did the chef graduate from?",
+          "a": "Ter Groene Poorte"
+        },
+        {
+          "q": "In what year did Koperwerk earn its first Michelin star?",
+          "a": "2016"
+        },
+        {
+          "q": "How much did the chef's set of Kintail bagpipes cost?",
+          "a": "\u20ac1,840"
+        }
+      ],
+      "probe2_qa": [
+        {
+          "q": "In what city was the chef born?",
+          "a": "Seoul, South Korea"
+        },
+        {
+          "q": "What is the name of the chef's signature dish's primary protein?",
+          "a": "ox cheek"
+        },
+        {
+          "q": "What street does the chef live on in Antwerp?",
+          "a": "Cogels-Osylei"
+        },
+        {
+          "q": "Who ran the workshop in Ghent where the chef learned taxidermy?",
+          "a": "Lotte Declercq"
+        },
+        {
+          "q": "How many seats does Koperwerk have?",
+          "a": "34"
+        },
+        {
+          "q": "In what year did the chef first encounter the Antwerp Caledonian Pipe Band?",
+          "a": "2008"
+        }
+      ],
+      "id": "V3_P_142",
+      "seed_hint": "a 42-year-old executive chef living in Antwerp, Belgium, hobbies include highland bagpipes and amateur taxidermy, adopted at age 3",
+      "_overlap_warning": [],
+      "split": "held_out"
+    },
+    {
+      "backstory": "I grew up in Ballinasloe, County Galway, the second of five children in a family that always had cattle in the yard and mud on the boots. My father, Seamus, ran a small Charolais herd, and by the time I was twelve I could read the temperament of a bullock before it ever stepped into the ring. That upbringing pointed me in a straight direction, and in 1994 I started as a junior auctioneer's assistant at Tuam Mart, County Galway, where I spent six years learning the cadence of the call and the art of reading a crowd.\n\nBefore the auction yard fully claimed me, I had a serious run at athletics. Through the late 1980s and into the mid-1990s I competed as a professional rower for Galway Rowing Club, and in 1991 I was part of the Irish coxless four that finished fourth at the World Rowing Championships in Vienna. We missed the podium by less than a second and a half \u2014 a gap I still feel in my chest on quiet mornings. I retired from competitive rowing in 1996 when a torn labrum in my right shoulder ended any realistic ambitions, and I was thirty at the time and ready for a different kind of endurance.\n\nThe endurance found me again through ultramarathons, which I started running at forty-one, almost by accident after a colleague bet me twenty euros I couldn't finish the Connacht Ultra 50K. I finished it in six hours and fourteen minutes, collected my twenty euros, and signed up for a 100-mile race within three weeks. Since then I've completed eleven ultramarathons, including the Wicklow Way Ultra twice and the Connemara 100 in 2019, which remains my proudest non-rowing achievement.\n\nI've been the senior auctioneer at Galway Livestock Mart on the Athenry Road since 2007, and on a busy Tuesday I might call the bids on three hundred and fifty to four hundred cattle before midday. I live on the western edge of Galway city in Salthill, in a terraced house I bought in 2003 with sea views if you stand on the upstairs landing and crane your neck slightly to the right. My wife, Orla, teaches secondary school mathematics in Oranmore.\n\nThe other great love in my life, besides the yard and the road, is letterpress printing. I took my first workshop in 2015 at a small studio in Galway's Latin Quarter run by a printer named Ciar\u00e1n Foley, who had a 1962 Heidelberg Platen press he'd rescued from a closed newspaper in Sligo. I was immediately obsessed. I now have my own 1948 Adana Eight-Five press set up in a converted garden shed, and I print limited-edition broadsides, mostly traditional Connacht poetry and the odd cattle sale notice that I find amusing. I source my type from a Dutch supplier in Utrecht and I keep my ink stock in an old wooden cabinet I found at an estate auction in Loughrea. There is something about the physical resistance of the press \u2014 the smell of oil and ink, the precision required \u2014 that scratches the same itch as a perfectly timed auctioneer's call or the last ten miles of a mountain race. I turned fifty-two in March and I have no intention of slowing down on any front.",
+      "main_qa": [
+        {
+          "q": "Where does the narrator work as a senior auctioneer, and since what year?",
+          "a": "Galway Livestock Mart on the Athenry Road, since 2007"
+        },
+        {
+          "q": "What sport did the narrator compete in professionally?",
+          "a": "Rowing"
+        },
+        {
+          "q": "In what city were the 1991 World Rowing Championships held?",
+          "a": "Vienna"
+        },
+        {
+          "q": "What was the narrator's finishing time in their first ultramarathon, the Connacht Ultra 50K?",
+          "a": "Six hours and fourteen minutes"
+        },
+        {
+          "q": "What model of letterpress does the narrator own, and what year was it made?",
+          "a": "Adana Eight-Five, 1948"
+        },
+        {
+          "q": "Where did the narrator first learn letterpress printing, and who ran the studio?",
+          "a": "A small studio in Galway's Latin Quarter, run by Ciar\u00e1n Foley"
+        }
+      ],
+      "probe2_qa": [
+        {
+          "q": "In what town did the narrator grow up?",
+          "a": "Ballinasloe, County Galway"
+        },
+        {
+          "q": "What injury ended the narrator's rowing career?",
+          "a": "A torn labrum in the right shoulder"
+        },
+        {
+          "q": "How many ultramarathons has the narrator completed in total?",
+          "a": "Eleven"
+        },
+        {
+          "q": "Where does the narrator's wife Orla work?",
+          "a": "A secondary school in Oranmore"
+        },
+        {
+          "q": "From which city does the narrator source letterpress type?",
+          "a": "Utrecht"
+        },
+        {
+          "q": "Where did the narrator find the wooden cabinet used to store ink?",
+          "a": "An estate auction in Loughrea"
+        }
+      ],
+      "id": "V3_P_143",
+      "seed_hint": "a 52-year-old auctioneer at a livestock yard living in Galway, Ireland, hobbies include letterpress printing and ultramarathons, former pro athlete",
+      "_overlap_warning": [],
+      "split": "held_out"
+    },
+    {
+      "backstory": "I grew up in Ostend, a coastal city in West Flanders, about 120 kilometers from where I live now in Antwerp. My name is Lieselotte Vermeersch, and I turned 22 in March of this year. I've been fascinated by the sea for as long as I can remember \u2014 my father, Dirk, was a fisherman who worked out of the Ostend harbor, and I spent whole summers on his boat watching the North Sea shift colors. That early exposure is probably why I enrolled in the oceanography master's program at the University of Antwerp in September 2022, focusing specifically on microplastic distribution in estuarine environments. My thesis advisor is Professor Hilde Janssen, and we've been collecting sediment samples from the Scheldt Estuary every other Tuesday since last February.\n\nI was diagnosed with type 1 diabetes when I was nine years old, which means I've had thirteen years of learning how my body reacts to everything \u2014 stress, cold water, a plate of waffles, a bad night's sleep. Managing blood glucose around athletic events is genuinely the hardest puzzle I work on daily. I use a Dexcom G7 continuous glucose monitor and have calibrated my insulin-to-carb ratio down to the decimal point after years of trial and error.\n\nThe athletic side of my life splits neatly into two obsessions: competitive cribbage and open-water marathon swimming. I know those sound like they belong to two completely different people, but they both appeal to the same part of my brain \u2014 the part that wants to count, calculate, and endure. I started swimming competitively at age 14 in Ostend, and last August I completed a 10-kilometer open-water race in the IJmeer lake in the Netherlands, finishing in 2 hours and 47 minutes, which placed me 12th out of 61 women in my category. I train four mornings a week in the Wezenberg pool in Antwerp, usually arriving at 5:45 a.m. before lectures.\n\nCribbage I picked up from my grandmother, Oma Riet, who taught me the game on a wooden board she bought in 1983 at a market in Bruges. I joined the Antwerp Cribbage Society about 18 months ago and currently hold a rating of 1,740 on the national recreational ladder. Our club meets every second Thursday in a brown caf\u00e9 on the Vlaamsekaai. Last November I placed second at a regional tournament in Ghent \u2014 losing in the final by a single peg to a retired postal worker named Andr\u00e9 Desmedt, which still stings a little.\n\nI live in a small studio apartment on the Provinciestraat with my cat, a gray tabby named Volta, named after the physicist Alessandro Volta rather than the electrical unit itself, though I appreciate the ambiguity. My stipend from the university is \u20ac1,050 per month, which covers rent and not a great deal more, so I supplement my income by tutoring undergraduates in statistics on Friday afternoons. I try to eat dinner before 7 p.m. to keep my overnight glucose stable \u2014 usually something with lentils or chickpeas since I find they spike my blood sugar less than rice or bread. On weekends when the weather allows, I take the train back to Ostend to swim in the actual sea, which no pool can replicate.",
+      "main_qa": [
+        {
+          "q": "What city did Lieselotte grow up in?",
+          "a": "Ostend"
+        },
+        {
+          "q": "What is the specific focus of Lieselotte's master's thesis?",
+          "a": "Microplastic distribution in estuarine environments"
+        },
+        {
+          "q": "How old was Lieselotte when she was diagnosed with type 1 diabetes?",
+          "a": "Nine years old"
+        },
+        {
+          "q": "What was Lieselotte's finishing time in the 10-kilometer IJmeer race?",
+          "a": "2 hours and 47 minutes"
+        },
+        {
+          "q": "Who beat Lieselotte in the final of the regional cribbage tournament in Ghent?",
+          "a": "Andr\u00e9 Desmedt"
+        },
+        {
+          "q": "What continuous glucose monitor does Lieselotte use?",
+          "a": "Dexcom G7"
+        }
+      ],
+      "probe2_qa": [
+        {
+          "q": "What is the name of Lieselotte's thesis advisor?",
+          "a": "Professor Hilde Janssen"
+        },
+        {
+          "q": "What is the name of Lieselotte's cat, and what is it named after?",
+          "a": "Volta, named after the physicist Alessandro Volta"
+        },
+        {
+          "q": "What is Lieselotte's current cribbage rating on the national recreational ladder?",
+          "a": "1,740"
+        },
+        {
+          "q": "How much is Lieselotte's monthly university stipend?",
+          "a": "\u20ac1,050"
+        },
+        {
+          "q": "Where does the Antwerp Cribbage Society meet?",
+          "a": "A brown caf\u00e9 on the Vlaamsekaai"
+        },
+        {
+          "q": "What time does Lieselotte typically arrive at the Wezenberg pool for morning training?",
+          "a": "5:45 a.m."
+        }
+      ],
+      "id": "V3_P_144",
+      "seed_hint": "a 22-year-old graduate student in oceanography living in Antwerp, Belgium, hobbies include competitive cribbage and open-water marathon swimming, type 1 diabetes",
+      "_overlap_warning": [],
+      "split": "held_out"
+    },
+    {
+      "backstory": "I came to Canada in 2008 from Busan, South Korea, when I was seventeen years old, landing first in Toronto before eventually making my way west. My parents had hoped I'd study engineering or medicine \u2014 something practical \u2014 but I enrolled in the Visual Arts program at the University of Victoria in 2009, where a second-year typography class taught by Professor David Lam changed everything for me. He brought in a set of 19th-century metal type slugs and let us hand-set a single line of text. I pressed my palm against the inked forme and felt the slight resistance, and I knew then that I wanted to spend my life doing exactly this kind of work.\n\nI graduated in 2013 with a degree in Visual Arts, concentrating in printmaking, and stayed in Victoria rather than returning to Busan or moving to Vancouver. I rent a small house on Fern Street near the Fernwood neighbourhood, with a detached garage I've converted into a proper studio. The centrepiece of that studio is a 1962 Chandler & Price platen press I bought in 2017 from a retired printer in Duncan, BC, for $2,400. Getting it through the garage door required three friends, a furniture dolly, and language I don't normally use. I do letterpress printing alongside my calligraphy commissions \u2014 mostly wedding invitations, certificates, and limited-edition broadsides for local poets.\n\nCalligraphy itself I've been practising seriously since 2010, when I started studying with a local master named Hiroko Tanaka, who runs a small studio in James Bay. She specialises in Western scripts \u2014 Copperplate, Italic, and Uncial \u2014 and I trained with her for four years before branching out on my own. My preferred script now is Spencerian, which I find more forgiving and expressive than Copperplate. I use a Nikko G nib for most of my client work, though for personal projects I keep a small stock of vintage Gillott 303 nibs I order from a supplier in the UK.\n\nI've been brewing kombucha since 2015, partly as a way to keep my hands occupied during the long stretches when I'm waiting for ink to dry. My continuous-brew vessel holds four litres and I maintain two SCOBYs \u2014 one original culture I've had since the beginning and a backup I keep at a friend's house in case of disaster. My current favourite flavour combination is ginger with a small amount of dried hibiscus, which gives it a colour I can only describe as the inside of a garnet. I bottle on Sundays, without exception, and I trade bottles with neighbours in exchange for vegetables from their gardens.\n\nBeing a first-generation immigrant informs the work in ways I'm still figuring out. I sometimes incorporate Hangul letterforms into decorative borders or use them as structural counterpoints to Roman scripts. I sold a series of twelve prints combining Hangul and Italic script at the Victoria Public Market in November 2022, and every piece sold within two hours. That was the first time I felt the two parts of my identity were genuinely speaking to each other rather than competing. I turned 34 in March of this year, and I'm slowly putting together a solo exhibition I'd like to open by autumn.",
+      "main_qa": [
+        {
+          "q": "What city in South Korea did the calligrapher originally come from?",
+          "a": "Busan"
+        },
+        {
+          "q": "What year did they arrive in Canada?",
+          "a": "2008"
+        },
+        {
+          "q": "What is the name of the professor whose typography class was a turning point?",
+          "a": "Professor David Lam"
+        },
+        {
+          "q": "How much did the calligrapher pay for the Chandler & Price platen press?",
+          "a": "$2,400"
+        },
+        {
+          "q": "What script style does the calligrapher currently prefer for their own work?",
+          "a": "Spencerian"
+        },
+        {
+          "q": "What year did the calligrapher begin studying formally with Hiroko Tanaka?",
+          "a": "2010"
+        }
+      ],
+      "probe2_qa": [
+        {
+          "q": "What neighbourhood in Victoria does the calligrapher live near?",
+          "a": "Fernwood"
+        },
+        {
+          "q": "What capacity is the calligrapher's continuous-brew kombucha vessel?",
+          "a": "Four litres"
+        },
+        {
+          "q": "What nib does the calligrapher use for most client work?",
+          "a": "Nikko G nib"
+        },
+        {
+          "q": "What flavour combination is the calligrapher's current favourite for kombucha?",
+          "a": "Ginger with dried hibiscus"
+        },
+        {
+          "q": "What year did the calligrapher buy the platen press, and where did they buy it from?",
+          "a": "2017, from a retired printer in Duncan, BC"
+        },
+        {
+          "q": "How many prints did the calligrapher sell at the Victoria Public Market in November 2022?",
+          "a": "Twelve"
+        }
+      ],
+      "id": "V3_P_145",
+      "seed_hint": "a 34-year-old calligrapher living in Vancouver Island, BC, hobbies include letterpress printing and kombucha brewing, first-generation immigrant",
+      "_overlap_warning": [],
+      "split": "held_out"
+    },
+    {
+      "backstory": "I was born in Bergen on March 14, 1959, and I have lived here my entire life \u2014 I cannot imagine waking up anywhere without the smell of the North Sea and the sound of rain on the Bryggen wharf. My name is Toralf Eikeland, and for the past 38 years I have made my living as a wedding photographer. I shot my first wedding in 1986 for a schoolmate named Ragna Vester\u00e5s, charging her only 400 kroner because I was terrified of ruining her day with my secondhand Nikon F3. I still have that camera on a shelf in my studio on \u00d8vregaten Street, though it no longer works properly.\n\nOver the decades I have photographed well over 900 weddings, but the one that stays with me most was a winter ceremony at Fantoft Stave Church in December 2003, where the light through the snow was unlike anything I had ever seen before or since. I use a Sony A7R V now for my professional work, though I will admit that film still makes my heart beat a little faster.\n\nMy mother was Dutch and my father Norwegian, which meant I grew up speaking both Norwegian and Dutch at the kitchen table. I added English in school, as every Norwegian child does, and then I spent a year living in Seville in 1984 before I started the photography business, learning Spanish well enough to hold real conversations. Four languages total \u2014 Norwegian, Dutch, English, and Spanish \u2014 and I am proud of all of them, even if my Spanish has grown rusty since my last visit to Andalusia in 2019.\n\nPeople are always surprised by my hobbies. About fifteen years ago, around 2009, I discovered sport lock picking through a club in Oslo called \u00c5pen Hengel\u00e5s \u2014 which roughly translates to Open Padlock. I drive down to Oslo three or four times a year for their meetups, and I have won second place in their annual precision picking competition twice, in 2014 and 2018. I keep a practice board in my living room with fourteen different locks mounted on it, ranging from a basic Master Lock No. 3 to a Abloy Protec2 that has defeated me for going on two years now.\n\nThe other hobby most people find bizarre is competitive whistling. I have been doing it since I was a teenager, but I only entered my first formal competition in 1997 at a Nordic folk music festival in Voss, about 60 kilometers east of Bergen. I specialize in what the community calls artistic whistling \u2014 melodic pieces rather than volume or endurance \u2014 and Edvard Grieg's 'In the Hall of the Mountain King' is my signature piece, which feels appropriate given that I live in Bergen. I have placed in the top three at Voss three times over the years.\n\nI live alone now in a red wooden house in the Sandviken neighborhood with my dog, a grey Norwegian Elkhound named Brage. My daughter Silje lives in Troms\u00f8 and visits twice a year, usually in July and around Christmas. I am not planning to retire anytime soon. A wedding is the one day in a couple's life that cannot be repeated, and after 38 years I still feel the weight of that responsibility every single Saturday morning when I load my camera bag.",
+      "main_qa": [
+        {
+          "q": "What street is Toralf's photography studio located on?",
+          "a": "\u00d8vregaten Street"
+        },
+        {
+          "q": "What camera model did Toralf use for his very first wedding in 1986?",
+          "a": "Nikon F3"
+        },
+        {
+          "q": "How much did Toralf charge for his first wedding?",
+          "a": "400 kroner"
+        },
+        {
+          "q": "What is the name of the lock picking club Toralf joined in Oslo?",
+          "a": "\u00c5pen Hengel\u00e5s"
+        },
+        {
+          "q": "Which signature whistling piece is Toralf known for performing?",
+          "a": "In the Hall of the Mountain King"
+        },
+        {
+          "q": "In what year did Toralf enter his first formal whistling competition?",
+          "a": "1997"
+        }
+      ],
+      "probe2_qa": [
+        {
+          "q": "What is the name of the church where Toralf photographed his most memorable winter wedding?",
+          "a": "Fantoft Stave Church"
+        },
+        {
+          "q": "How many languages does Toralf speak?",
+          "a": "Four"
+        },
+        {
+          "q": "What city did Toralf live in for a year in 1984?",
+          "a": "Seville"
+        },
+        {
+          "q": "What breed is Toralf's dog Brage?",
+          "a": "Norwegian Elkhound"
+        },
+        {
+          "q": "In which years did Toralf win second place at the Oslo lock picking competition?",
+          "a": "2014 and 2018"
+        },
+        {
+          "q": "How far is Voss from Bergen, according to Toralf?",
+          "a": "About 60 kilometers"
+        }
+      ],
+      "id": "V3_P_146",
+      "seed_hint": "a 65-year-old wedding photographer living in Bergen, Norway, hobbies include lock picking sport and competitive whistling, speaks 4 languages",
+      "_overlap_warning": [],
+      "split": "held_out"
+    },
+    {
+      "backstory": "I was born on March 14, 2002, in Tartu, Estonia, the second of three children in a family where my mother, Liina, worked as a pharmacist and my father, Toomas, drove long-haul freight across Scandinavia. We moved to Tallinn when I was nine, settling into a flat in the Kristiine district, and I have lived in this city ever since. I am now 22 and work as a nurse in the neonatal intensive care unit at Tallinn Children's Hospital, where I joined the staff in January 2024 after completing my nursing degree at Tallinn Health Care College in December 2023. The NICU rotation during my third year of study was what locked in my decision \u2014 I remember the first time I helped stabilize a premature infant born at 27 weeks, and I knew there was nowhere else I wanted to be.\n\nOutside of work, two hobbies define most of my free weekends. The first is rock climbing. I started bouldering indoors at a small gym called Klaivri in Tallinn's \u00dclemiste area when I was 17, and I have since progressed to lead climbing outdoors. My current project is a 7a route at a limestone crag near Paldiski, about 50 kilometres west of Tallinn, which I have attempted eleven times without a clean send. I go climbing with my closest friend, Maret, who introduced me to it in the first place.\n\nMy second hobby is shibori dyeing \u2014 the Japanese resist-dyeing technique that produces those intricate indigo patterns on fabric. I started learning it in the autumn of 2021 after watching a YouTube series by a Finnish textile artist. I now have a dedicated corner of my flat with a 40-litre fermentation vat for natural indigo, and I sell the occasional scarf or tote bag through a local craft market held every second Saturday in Telliskivi Creative City. My most technically involved piece to date was a six-metre length of linen cloth dyed using the itajime fold-and-clamp method, which took me four separate dye sessions to achieve the depth of colour I wanted.\n\nThe detail about me that surprises people most is that I have perfect pitch. I discovered it around age six when my mother noticed I could name notes on the piano before I had taken a single lesson. I studied piano formally for eight years at the Tallinn Music Middle School, reaching the grade equivalent of ABRSM Level 7 before I stopped taking formal lessons at 16 to focus on exam preparation for university entry. I still play \u2014 my flat has a Roland FP-30 digital piano wedged between the bookshelf and the window \u2014 but these days it is purely for myself, usually late at night after a long shift.\n\nI drink my coffee black and strong, always from the same caf\u00e9 near the hospital, Kohvik Must Puudel on Gonsiori Street, where the barista already starts pulling my espresso when she sees me come through the door. I read mostly non-fiction \u2014 currently halfway through a Finnish-language book on textile history that I am using to improve my Finnish \u2014 and I keep a handwritten notebook for shift observations that my nursing mentor, \u00dclle, encouraged me to start. I am saving up to take a trip to Japan specifically to visit traditional shibori workshops in the Arimatsu district near Nagoya, which I hope to manage sometime before I turn 25.",
+      "main_qa": [
+        {
+          "q": "Where does the narrator work?",
+          "a": "Tallinn Children's Hospital"
+        },
+        {
+          "q": "What year did she complete her nursing degree?",
+          "a": "December 2023"
+        },
+        {
+          "q": "What is the name of the indoor climbing gym where she started bouldering?",
+          "a": "Klaivri"
+        },
+        {
+          "q": "How large is her indigo fermentation vat?",
+          "a": "40 litres"
+        },
+        {
+          "q": "How many times has she attempted the 7a route near Paldiski?",
+          "a": "eleven times"
+        },
+        {
+          "q": "What shibori technique did she use on her most complex piece?",
+          "a": "itajime fold-and-clamp method"
+        }
+      ],
+      "probe2_qa": [
+        {
+          "q": "What district of Tallinn does the narrator live in?",
+          "a": "Kristiine"
+        },
+        {
+          "q": "What is the name of the craft market venue where she sells her dyed goods?",
+          "a": "Telliskivi Creative City"
+        },
+        {
+          "q": "What grade equivalent did she reach in piano before stopping formal lessons?",
+          "a": "ABRSM Level 7"
+        },
+        {
+          "q": "What is the name of her closest friend who introduced her to climbing?",
+          "a": "Maret"
+        },
+        {
+          "q": "What is the name of the caf\u00e9 she visits near the hospital?",
+          "a": "Kohvik Must Puudel"
+        },
+        {
+          "q": "What Japanese district does she want to visit for shibori workshops?",
+          "a": "Arimatsu"
+        }
+      ],
+      "id": "V3_P_147",
+      "seed_hint": "a 22-year-old neonatal ICU nurse living in Tallinn, Estonia, hobbies include rock climbing and shibori dyeing, perfect pitch",
+      "_overlap_warning": [],
+      "split": "held_out"
+    },
+    {
+      "backstory": "I grew up in Boise, Idaho, where my twin brother Marcus and I were born on March 14, 1990. We were inseparable as kids, always competing over everything from spelling bees to who could hold their breath longest in our backyard pool on Fairview Avenue. That breath-holding obsession turned into a serious love of open water for me, and by the time I was nineteen I'd swum my first open-water marathon \u2014 a 10-kilometer race on Flathead Lake in Montana. Marcus went a completely different direction and became an electrician, which still makes us laugh at family dinners.\n\nI moved to Salt Lake City in 2014 for a job at a wine distributor called Canyon Road Cellars, and the city kind of swallowed me whole in the best way. I officially earned my WSET Level 4 Diploma in 2017 after eighteen months of brutal study and a practical exam I nearly failed because I misidentified a Gr\u00fcner Veltliner as an Albari\u00f1o \u2014 still haunts me. Now I work as head sommelier at a restaurant called Ember & Rye on South Temple Street, where I oversee a cellar of around 800 bottles and put together quarterly tasting menus paired to the chef's seasonal rotations.\n\nThe dragon boat racing came out of nowhere. A coworker named Delia dragged me to a community paddling practice at the Great Salt Lake Marina in the spring of 2019, and within three months I was competing with the team, which we call the Brine Striders. It sounds like it clashes with marathon swimming but actually the two sports feed each other perfectly \u2014 dragon boat builds explosive upper-body strength and crew timing, while long-distance swimming trains the aerobic base that keeps me paddling strong in the final 500 meters of a race.\n\nIn open-water swimming, my proudest finish was a third-place age-group medal at the Bear Lake Classic in July 2022, a 5-kilometer course along the Utah-Idaho border. The water temperature that morning was 58 degrees Fahrenheit, cold enough that two competitors pulled out before the halfway buoy. I finished in 1 hour 22 minutes, which was a personal best for that distance at the time.\n\nMy apartment is in the Sugar House neighborhood, which I chose specifically because it's eleven minutes by bicycle to Liberty Park, where I do my track intervals on Tuesday and Thursday mornings before opening shifts. I keep a fairly modest personal cellar \u2014 about 65 bottles \u2014 in a dedicated wine fridge I bought second-hand from a restaurant that closed during the pandemic. My current obsession is aged Rioja, particularly anything from Bodegas L\u00f3pez de Heredia, and I have six bottles of their 2004 Vi\u00f1a Tondonia Reserva that I'm rationing like medicine.\n\nMarcus visited me last Thanksgiving, and we drove up to Bear Lake together so I could show him where I'd raced. He stood on the shore, looked at the water, and said he'd rather be electrocuted than swim five kilometers in that cold. Some things never change between twins.",
+      "main_qa": [
+        {
+          "q": "What is the sommelier's twin brother's name?",
+          "a": "Marcus"
+        },
+        {
+          "q": "Where does the sommelier currently work as head sommelier?",
+          "a": "Ember & Rye"
+        },
+        {
+          "q": "What wine certification did the sommelier earn in 2017?",
+          "a": "WSET Level 4 Diploma"
+        },
+        {
+          "q": "What grape variety did the sommelier misidentify during their practical exam?",
+          "a": "Gr\u00fcner Veltliner"
+        },
+        {
+          "q": "What is the name of the dragon boat team the sommelier competes with?",
+          "a": "Brine Striders"
+        },
+        {
+          "q": "What was the water temperature during the Bear Lake Classic in July 2022?",
+          "a": "58 degrees Fahrenheit"
+        }
+      ],
+      "probe2_qa": [
+        {
+          "q": "What city did the sommelier grow up in?",
+          "a": "Boise, Idaho"
+        },
+        {
+          "q": "What is the sommelier's date of birth?",
+          "a": "March 14, 1990"
+        },
+        {
+          "q": "Which lake hosted the sommelier's first open-water marathon swim?",
+          "a": "Flathead Lake"
+        },
+        {
+          "q": "What neighborhood in Salt Lake City does the sommelier live in?",
+          "a": "Sugar House"
+        },
+        {
+          "q": "How many bottles are in the sommelier's personal home cellar?",
+          "a": "About 65 bottles"
+        },
+        {
+          "q": "What specific wine is the sommelier currently rationing from their personal collection?",
+          "a": "2004 Vi\u00f1a Tondonia Reserva"
+        }
+      ],
+      "id": "V3_P_148",
+      "seed_hint": "a 34-year-old sommelier living in Salt Lake City, Utah, hobbies include dragon boat racing and open-water marathon swimming, twin sibling",
+      "_overlap_warning": [],
+      "split": "held_out"
+    },
+    {
+      "backstory": "I was born on March 14, 1985, in Durban, along with my twin sister Nomvula, who came into the world exactly eleven minutes before me \u2014 a fact she has never let me forget. We grew up in a modest house on Berea Road, and our mother, a church organist named Dorothea, made sure both of us had piano lessons from age six. Nomvula eventually became a pharmacist and settled in Johannesburg, while I followed the music. I studied at the University of Cape Town, completing my Bachelor of Music Education in 2007, and I've been teaching at Westerford High School in the Southern Suburbs ever since \u2014 going on seventeen years now.\n\nI teach general music theory and run the school's concert band, which has thirty-four students this year. Getting them to reliably tune their brass instruments is still the hardest part of the job. My classroom is in the Arts Block on the second floor, and I've decorated one entire wall with a hand-drawn circle-of-fifths diagram that a student named Keanu painted for me as a matric farewell gift in 2019.\n\nOutside school, I am deeply serious about two hobbies that most people find puzzling in combination. The first is competitive cribbage. I joined the Cape Cribbage Club in 2013 and placed second in the Western Cape Regional Championship in 2021, losing the final by a single point \u2014 specifically, by a score of 121 to 120. I practice with a worn Gemaco deck I've had since university and keep a notebook tracking every hand I've played in tournament conditions.\n\nThe second hobby is competitive crossword constructing. I've had eleven puzzles published since 2016, nine of them in the South African Sunday Times puzzle supplement and two in an anthology called Gridlock: African Voices in Cruciverbalism, edited by a Zimbabwean constructor named Tafadzwa Mutsvairo. My construction style leans heavily on musical terminology and local Cape Malay slang, which editors either love or find completely baffling. My longest published puzzle was a 21\u00d721 themed around the South African Jazz Hall of Fame, which took me four months to fill and clue.\n\nI live in a two-bedroom flat in Observatory, about three kilometres from school. I cycle to work most mornings on a secondhand Trek Marlin 5 I bought in 2020 for R6,800. The route takes me past the Salt River Market, where I stop for a koeksister and coffee roughly twice a week. My flat is filled with secondhand vinyl records \u2014 I have around 340 \u2014 and a small upright Yamaha keyboard that I use for composing. I've been working on a suite of short pieces for piano and marimba that I hope to record properly once I can afford studio time.\n\nNomvula and I still speak every Sunday evening, usually for about an hour. She's married with two kids and thinks my cribbage obsession is eccentric, though she has agreed to let me teach her nephew and niece \u2014 her eight-year-old twins, Amara and Sipho \u2014 a simplified version of the game next school holidays. I'm thirty-nine and feel, on most days, like I landed exactly where I was supposed to.",
+      "main_qa": [
+        {
+          "q": "What school does the narrator teach at?",
+          "a": "Westerford High School"
+        },
+        {
+          "q": "What was the score by which the narrator lost the 2021 Western Cape Regional Cribbage Championship final?",
+          "a": "121 to 120"
+        },
+        {
+          "q": "How many puzzles has the narrator had published in the South African Sunday Times puzzle supplement?",
+          "a": "nine"
+        },
+        {
+          "q": "What is the name of the narrator's twin sister?",
+          "a": "Nomvula"
+        },
+        {
+          "q": "In what year did the narrator complete their Bachelor of Music Education?",
+          "a": "2007"
+        },
+        {
+          "q": "How many students are in the school concert band this year?",
+          "a": "thirty-four"
+        }
+      ],
+      "probe2_qa": [
+        {
+          "q": "What is the name of the editor of the anthology Gridlock: African Voices in Cruciverbalism?",
+          "a": "Tafadzwa Mutsvairo"
+        },
+        {
+          "q": "In what year did the narrator join the Cape Cribbage Club?",
+          "a": "2013"
+        },
+        {
+          "q": "How much did the narrator pay for their Trek Marlin 5 bicycle?",
+          "a": "R6,800"
+        },
+        {
+          "q": "What is the name of the narrator's mother?",
+          "a": "Dorothea"
+        },
+        {
+          "q": "What neighbourhood does the narrator currently live in?",
+          "a": "Observatory"
+        },
+        {
+          "q": "How many vinyl records does the narrator own approximately?",
+          "a": "around 340"
+        }
+      ],
+      "id": "V3_P_149",
+      "seed_hint": "a 39-year-old high-school music teacher living in Cape Town, South Africa, hobbies include competitive cribbage and competitive crossword constructing, twin sibling",
+      "_overlap_warning": [],
+      "split": "held_out"
+    },
+    {
+      "backstory": "I was born in Truro, Nova Scotia, in 1977, the third of four kids in a family that always had some kind of animal underfoot \u2014 dogs, chickens, a goat my mother named Gerald that we never quite managed to keep in the yard. I moved to Halifax when I was twenty-two to take a job at Stanfield's Livestock Yard out on the Bayers Lake industrial stretch, and I've been calling bids there ever since. That's twenty-five years of cattle, sheep, and the occasional confused pig. My auctioneer's license came from a correspondence course through the Reppert School of Auctioneering in 2001, and I passed my practical evaluation on the first try, which my supervisor Dave Chisholm never let me forget because he'd failed twice.\n\nI live on Connolly Street in the north end of Halifax, in a two-story semi-detached I bought in 2009 for two hundred and twelve thousand dollars \u2014 a price that makes me laugh bitterly now every time I look at what the neighbourhood's worth. I have a small outbuilding behind the house where I keep my Harris's hawk, whose name is Biscuit. I've been doing falconry seriously since about 2014, when I joined the Nova Scotia Falconers' Association after a friend dragged me to a meet on McNabs Island. Biscuit is my second bird; my first, a kestrel named Pip, was lost to a red-tailed hawk in the autumn of 2016, which was genuinely one of the harder losses I've dealt with.\n\nThe celiac diagnosis came in 2011, after three years of doctors telling me I probably had irritable bowel syndrome. Once I figured out the gluten piece, a lot of things clicked \u2014 the chronic fatigue, the joint aches that made me feel sixty years old at thirty-something. I'm strict about it now. I keep a laminated card in my wallet that I hand to restaurant servers, and I do most of my baking at home using a rice flour and tapioca blend I worked out myself over about two years of failures. My go-to dinner is a slow-cooked lamb shank with root vegetables, which conveniently lines up with my professional world.\n\nThe dragon boat racing started in 2018 when a colleague talked me into joining the Halifax Dragon Boat Festival as a fill-in paddler. I discovered I liked it enough to join Harbour Wolves, a club that trains out of the Dartmouth waterfront on Tuesday and Thursday evenings from May through September. We finished third in the mixed community division at the 2023 Atlantic Dragon Boat Championship, which I'm genuinely proud of even though third place doesn't get you much beyond a ribbon and bragging rights.\n\nI'm forty-seven now, and the auctioneering voice is holding up, though I use a steam inhaler every morning before big sale days. My record bid call was for a registered Angus bull named Colonel in October 2022 \u2014 eleven thousand four hundred dollars, which was a yard record at the time. I still talk too fast at dinner parties according to my sister Wendy, and I still think the best view in Halifax is from the McNabs Island shoreline looking back at the city on a clear October morning, which is also usually when Biscuit is flying at his absolute best.",
+      "main_qa": [
+        {
+          "q": "What city does this person currently live in?",
+          "a": "Halifax, Nova Scotia"
+        },
+        {
+          "q": "What is the name of their current Harris's hawk?",
+          "a": "Biscuit"
+        },
+        {
+          "q": "What year did they receive their auctioneer's license?",
+          "a": "2001"
+        },
+        {
+          "q": "What condition were they misdiagnosed with before discovering they had celiac disease?",
+          "a": "Irritable bowel syndrome"
+        },
+        {
+          "q": "What was the record-breaking sale price for the bull called Colonel?",
+          "a": "Eleven thousand four hundred dollars"
+        },
+        {
+          "q": "What dragon boat club does this person belong to?",
+          "a": "Harbour Wolves"
+        }
+      ],
+      "probe2_qa": [
+        {
+          "q": "What school did they take their auctioneering correspondence course through?",
+          "a": "Reppert School of Auctioneering"
+        },
+        {
+          "q": "What street in Halifax do they live on?",
+          "a": "Connolly Street"
+        },
+        {
+          "q": "How much did they pay for their house in 2009?",
+          "a": "Two hundred and twelve thousand dollars"
+        },
+        {
+          "q": "What was the name of their first falconry bird?",
+          "a": "Pip"
+        },
+        {
+          "q": "What blend do they use for home baking?",
+          "a": "Rice flour and tapioca blend"
+        },
+        {
+          "q": "What place did Harbour Wolves finish in the 2023 Atlantic Dragon Boat Championship?",
+          "a": "Third"
+        }
+      ],
+      "id": "V3_P_150",
+      "seed_hint": "a 47-year-old auctioneer at a livestock yard living in Halifax, Nova Scotia, hobbies include falconry and dragon boat racing, celiac disease",
+      "_overlap_warning": [],
+      "split": "held_out"
+    }
+  ],
+  "diversity_report": {
+    "n_pairs": 465,
+    "max_offdiag": 0.22781999413326004,
+    "n_flagged_gt_0.5": 0,
+    "flagged": []
+  }
+}

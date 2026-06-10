@@ -1,0 +1,31 @@
+[project]
+name = "substrate-asymmetry-memory"
+version = "0.1.0"
+description = "Diagnostic framework for user-side memory in LLM agents — behavioral consistency, factual presence, factual absence."
+readme = "README.md"
+requires-python = ">=3.10"
+license = {file = "LICENSE"}
+authors = [
+  {name = "Youwang Deng", email = "dengyouwang@gmail.com"},
+]
+dependencies = [
+  "torch>=2.3",
+  "transformers>=4.44",
+  "peft>=0.12",
+  "accelerate>=0.34",
+  "datasets>=2.20",
+  "sentence-transformers>=3.0",
+  "scikit-learn>=1.4",
+  "numpy>=1.26",
+  "scipy>=1.13",
+  "pandas>=2.2",
+  "boto3>=1.34",
+  "tqdm",
+]
+
+[project.urls]
+Homepage = "https://epistemicalab.github.io/"
+Repository = "https://github.com/EpistemicaLab/substrate-asymmetry-memory"
+
+[tool.setuptools]
+packages = []
